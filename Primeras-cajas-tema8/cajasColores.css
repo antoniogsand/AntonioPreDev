@@ -1,0 +1,58 @@
+.caja1{
+    box-sizing: border-box;
+    border-bottom: solid 50px green;
+    border-left: solid 50px rgb(239, 11, 11);
+    border-right: solid 50px rgb(255, 212, 39);
+    border-top :  solid 50px blue;
+    height: 100px;
+    width: 100px;
+}
+
+.caja2{
+    box-sizing: border-box;
+    border-top: solid 50px blue;
+    border-left: solid 50px red;
+    border-bottom: solid 50px green;
+    border-right: solid 50px transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.caja3{
+    box-sizing: border-box;
+    border-top: solid 50px blue;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    border-bottom: solid 50px transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.caja4{
+    box-sizing: border-box;
+    border-top: solid 50px green;
+    border-left: solid 50px green;
+    border-right: solid 50px green;
+    border-bottom: solid 50px green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.caja5{
+    box-sizing: border-box;
+    border-left: solid 50px green;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.caja6{
+    box-sizing: border-box;
+    border-bottom: solid 50px green;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+
