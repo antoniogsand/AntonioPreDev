@@ -156,3 +156,63 @@
     border-style: dashed;
     border-radius: 100%;
 }
+
+.caja14{
+    box-sizing: border-box;
+    background-color: rgb(226, 220, 220);
+    border: solid 2px;
+    height: 200px;
+    width: 300px;
+    border-bottom-color: blue;
+    border-bottom-width: 15px;
+    border-right-color: blue;
+    border-right-width: 15px;
+    border-left-color: deepskyblue;
+    border-left-width: 15px;
+    border-top-color: deepskyblue;
+    border-top-width: 15px;
+}
+
+.caja15{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 4%;
+    background-image: linear-gradient(red, yellow);
+    border: solid 2px;
+    border-bottom-color: red;
+    border-bottom-width: 15px;
+    border-left-color: red;
+    border-left-width: 5px;
+    border-right-color: red;
+    border-right-width: 5px;
+    border-top-color: red;
+    border-top-width: 5px;
+    height: 300px;
+    width: 600px;
+    
+}
+
+.colores1{
+    color: blueviolet;
+}
+
+.caja16{
+
+    box-sizing: border-box;
+    border: solid 2px;
+    border-top-color: yellow;
+    border-top-width: 20px;
+    border-bottom-color: red;
+    border-bottom-width: 20px;
+    border-left-color: blue;
+    border-left-width: 20px;
+    border-right-color: green;
+    border-right-width: 20px;
+    height: 300px;
+    width: 600px;
+  
+}
+
+.colores2´{
+   
+}
