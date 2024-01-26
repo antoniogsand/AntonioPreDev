@@ -1,0 +1,38 @@
+body{
+    width: 1300px;
+}
+
+header {
+    padding: 100px;
+    text-align: center;
+  /* Aplica un degradado de color sobre en el fondo */
+    background-image: linear-gradient(rgba(78, 242, 19, 0.822), rgba(0, 0, 0, 0.938));
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 1700px;
+  }
+
+  .visible{
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    border: 2px solid;
+    overflow: visible;
+  }
+
+  .scroll{
+    background-color: darkturquoise;
+    width: 250px;
+    height: 120px;
+    border: 2px solid;
+    overflow: scroll;
+  }
+
+  .auto{
+    background-color: darkturquoise;
+    width: 250px;
+    height: 120px;
+    border: 2px solid;
+    overflow: auto;
+  }

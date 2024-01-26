@@ -1,14 +1,25 @@
 
-.coloruno{
+  .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .bandera {
     background-color: white;
-    height: 190px;
-    width: 100px;
-}
-
-.colordos{
+    width: 600px;
+    height: 400px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
 
+  .colorrojo{
     background-color: red;
-    border-radius: 1000px;
-    flex-wrap: wrap;
-}
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto;
+    
+  }
