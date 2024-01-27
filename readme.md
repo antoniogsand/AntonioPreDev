@@ -69,3 +69,17 @@
 #### El siguiente libro me gustó mucho cuando lo leí, lo recomiendo
 
 ![Libro](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)
+
+<details>
+<summary>Pulsa para una bola extra.</summary>
+Es probable que te estés preguntando cómo se pueden escribir ciertos símbolos como * asteriscos o _ guiones bajos, sin que Markdown los interprete para convertirlos en negritas, cursivas…
+
+Es muy sencillo, ya que en este lenguaje existe un elemento estrella para especificar que todo lo que escribas a continuación, no se interprete como Markdown.
+
+Se trata de la barra invertida \.
+
+Escribiéndola justo delante de los simbolos que añaden una característica esta barra anulará esa característica.
+</details>
+
+## Continuará...
+
