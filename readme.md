@@ -67,5 +67,5 @@
 *con qué pretexto*
 *por fin me necesites.*
 #### El siguiente libro me gustó mucho cuando lo leí, lo recomiendo
-![Texto alternativo](URL_de_la_imagen)
-![medy](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)
+
+![Libro](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)
