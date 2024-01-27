@@ -67,4 +67,5 @@
 *con qué pretexto*
 *por fin me necesites.*
 #### El siguiente libro me gustó mucho cuando lo leí, lo recomiendo
-![Ensayo sobre la ceguera](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)! 
+![Texto alternativo](URL_de_la_imagen)
+![medy](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)
