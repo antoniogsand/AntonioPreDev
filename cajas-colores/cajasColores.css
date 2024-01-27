@@ -249,5 +249,10 @@
     width: 450px;
     border-style: dashed;
     border-radius: 100%;
-    
+}
+
+.interrogacion{
+    padding-top: 50px;
+    text-align: center;
+    color: blue;
 }
