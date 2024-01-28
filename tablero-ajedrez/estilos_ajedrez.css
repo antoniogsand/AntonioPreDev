@@ -1,10 +1,30 @@
+header {
+   
+    padding: 10px;
+    margin: 0% auto;
+    background-color: darkcyan;
+    color: rgb(196, 4, 4);
+    justify-content: center;
+    width: 915px;
+    text-align: center;
+    height: 150px;
+    font-size: 35px;
+  
+  } 
+
+body{
+    background-image: url(fondo/fondoWeb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  /* Con el selector universal, el asterísco, se seleccionan todos los elementos de texto para aplicarles esa fuente y ese tamaño*/
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* aquí abajo lo que se está cogiendo es un valor relativo que en este caso es 20 pixeles
     porque rem hace referencia al tamaño de la fuente raiz que son 16 pixeles más 1/4 hacen 20 */
     font-size: 1,25rem;
-   
-    
+
 }
 /* He usado dos capturas de una textura de un tablero de ajedrez para que tuviera el aspecto actual.
 Y cada textura la he usado en las casillas correspondientes insertándolas dentro de los td de cada fila */
@@ -23,6 +43,7 @@ td.negro{
 table{
     border-style: solid;
     border-width: 1px;
+    margin: 0% auto;
 }
 
 th{
@@ -37,7 +58,7 @@ th{
 
 .fila{
     height: 30px;
-    width: 120px;
+    width: 110px;
 }
 
 #esquina{
