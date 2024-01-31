@@ -1,380 +1,458 @@
-header {
+ header {
    
     padding: 10px;
     margin: 0% auto;
     background-color: rgb(5, 5, 208);
     color: rgb(248, 237, 39);
-    justify-content: center;
     width: 915px;
     text-align: center;
     height: 150px;
     font-size: 35px;
     position: sticky;
-    top: 0px;
+    top: 0;
+ } 
+
+ body{
+ background-image: url(fondo/fondoWeb.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-repeat: no-repeat;
  }
+.contenedor{
+  margin: auto;
+  height: 800px;
+  width: 800px;
+}
 
-
+img{
+  height: 100px;
+  width: 100px;
+}
 
   div{
-    float: left;
+    /* float: left; */
   }
 
   .div1{
   background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div2{
   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div3{
 background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div4{
    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div5{
    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div6{
 background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div7{
    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div8{
 background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div9{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
   .div10{
-    background-color: black;
+background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div11{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div12{
-    background-color: black;
+background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div13{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div14{
-    background-color: black;
+ background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div15{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div16{
-    background-color: black;
+background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div17{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
   .div18{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div19{
-    background-color: black;
+ background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div20{
-    background-color: rgb(172, 14, 14);
+background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div21{
-    background-color: black;
+   background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div22{
-    background-color: rgb(172, 14, 14);
+ background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div23{
-    background-color: black;
+  background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
 
   }
 
   .div24{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div25{
-    background-color: black;
+ background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
 
   .div26{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div27{
-    background-color: rgb(172, 14, 14);
+  background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
 
   }
   .div28{
-    background-color: black;
+ background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div29{
-    background-color: rgb(172, 14, 14);
+ background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div30{
-    background-color: black;
+  background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div31{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div32{
-    background-color: black;
+   background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div33{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
   .div34{
-    background-color: black;
+   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div35{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div36{
-    background-color: rgb(172, 14, 14);
+   background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
 
   }
   .div37{
-    background-color: black;
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div38{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div39{
-    background-color: black;
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div40{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div41{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
 
   .div42{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div43{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div44{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div45{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   
   }
   .div46{
-    background-color: black;
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div47{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div48{
-    background-color: black;
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div49{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
   .div50{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div51{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div52{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div53{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div54{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
 
   }
   .div55{
-    background-color: black;
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div56{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div57{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
     clear: left;
+    float: left;
   }
 
   .div58{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div59{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div60{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div61{
-    background-color: black;
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
 
   .div62{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div63{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/vainilla.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
   .div64{
-    background-color: rgb(172, 14, 14);
+    background-image: url(fondo/marron.png);
     height: 100px;
     width: 100px;
+    float: left;
   }
