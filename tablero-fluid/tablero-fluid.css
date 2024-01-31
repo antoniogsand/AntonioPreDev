@@ -1,0 +1,380 @@
+header {
+   
+    padding: 10px;
+    margin: 0% auto;
+    background-color: rgb(5, 5, 208);
+    color: rgb(248, 237, 39);
+    justify-content: center;
+    width: 915px;
+    text-align: center;
+    height: 150px;
+    font-size: 35px;
+    position: sticky;
+    top: 0px;
+ }
+
+
+
+  div{
+    float: left;
+  }
+
+  .div1{
+  background-image: url(fondo/marron.png);
+    height: 100px;
+    width: 100px;
+  }
+
+  .div2{
+  background-image: url(fondo/vainilla.png);
+    height: 100px;
+    width: 100px;
+  }
+  .div3{
+background-image: url(fondo/marron.png);
+    height: 100px;
+    width: 100px;
+  }
+
+  .div4{
+   background-image: url(fondo/vainilla.png);
+    height: 100px;
+    width: 100px;
+  }
+  .div5{
+   background-image: url(fondo/marron.png);
+    height: 100px;
+    width: 100px;
+  }
+
+  .div6{
+background-image: url(fondo/vainilla.png);
+    height: 100px;
+    width: 100px;
+  }
+  .div7{
+   background-image: url(fondo/marron.png);
+    height: 100px;
+    width: 100px;
+  }
+
+  .div8{
+background-image: url(fondo/vainilla.png);
+    height: 100px;
+    width: 100px;
+  }
+  .div9{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+  .div10{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div11{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div12{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div13{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div14{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div15{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div16{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div17{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+  .div18{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div19{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+  .div20{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div21{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div22{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div23{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+
+  }
+
+  .div24{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div25{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+
+  .div26{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div27{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+
+  }
+  .div28{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div29{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div30{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div31{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div32{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div33{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+  .div34{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div35{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div36{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+
+  }
+  .div37{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div38{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div39{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div40{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div41{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+
+  .div42{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div43{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div44{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div45{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  
+  }
+  .div46{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div47{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div48{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div49{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+  .div50{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div51{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div52{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div53{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div54{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+
+  }
+  .div55{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div56{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div57{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    clear: left;
+  }
+
+  .div58{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div59{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div60{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div61{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+  }
+
+  .div62{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div63{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
+  .div64{
+    background-color: rgb(172, 14, 14);
+    height: 100px;
+    width: 100px;
+  }
