@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<correo>
+    <remitente>
+        <nombre>Pedro Martínez</nombre>
+        <email>pmartinez@gmail.com</email>
+    </remitente>
+    <destinatario>
+        <nombre>Luis López</nombre>
+        <email>llopez</email>
+    </destinatario>
+    <asunto>Envio de documentos</asunto>
+    <mensaje>
+        <parrafo>Este parrafo es de prueba</parrafo>
+        <parrafo>para el ejercicio de xml</parrafo>
+        <parrafo>hasta aqui llega el texto</parrafo>
+    </mensaje>
+</correo>
