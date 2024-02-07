@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ejemplo.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<pelicula anyo="2022">
+    <titulo>
+        El señor de los anillos la comunidad del anillo
+    </titulo>
+    <titulo>
+        El señor de los anillos las dos torres
+    </titulo>
+    
+    <descripcion>
+        Muy larga pero guapísima
+    </descripcion>
+    <anyo>
+        2000
+    </anyo>
+</pelicula>
