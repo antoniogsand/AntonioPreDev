@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de ajedrez</title>
+    <link rel="stylesheet" href="estilos_ajedrez.css">
+</head>
+<header>
+    <div class="header">
+        <h1>Tablero hecho con tablas</h1>
+      </div>    
+</header>
+
+    <div class="nav">
+        <nav>
+
+          <a href="../tablero-ajedrez/tema8_ajedrez_tabla.html">Tablero tablas</a>
+          <a href="../tablero-fluid/tablero-fluid.html">Tablero fluid</a>
+          <a href="../tablero fixed/tablero-fixed.html">Tablero fixed</a>
+          <a href="../tablero-flex/tablero-flex.html">Tablero flex</a>
+      
+        </nav>
+    </div>
+<body>
+    <!--lo que se ha hecho aquí es crear una tabla de 8 colummnas y 8 filas y a través de de las clases de las etiquetas se le consiguen dar diferentes propiedades para crear el tablero
+    -->
+<table>
+
+<tr>
+<th id="esquina"></th>
+<th class="fila">A</th><th class="fila">B</th>
+<th class="fila">C</th><th class="fila">D</th>
+<th class="fila">E</th><th class="fila">F</th>
+<th class="fila">G</th><th class="fila">H</th>
+</tr>
+<!--He insertado cada imagen en cada celda y para que no se superponga el archivo .png lo hice transparente a través de la web de Adobe-->
+<tr>
+<th class="columna">1</th>
+<td class="blanco" id="A1"><img src="piezas/negras/torre_negra.png"></td><td class="negro" id="B1"><img src="piezas/negras/caballo_negro.png"></td>
+<td class="blanco" id="C1"><img src="piezas/negras/alfil_negro.png"></td><td class="negro" id="D1"><img src="piezas/negras/reina_negra.png"></td>
+<td class="blanco" id="E1"><img src="piezas/negras/rey_negro.png"></td><td class="negro" id="F1"><img src="piezas/negras/alfil_negro.png"></td>
+<td class="blanco" id="G1"><img src="piezas/negras/caballo_negro.png"></td><td class="negro" id="H1"><img src="piezas/negras/torre_negra.png"></td>
+</tr>
+
+<tr>
+<th class="columna">2</th>
+<td class="negro" id="A2"><img src="piezas/negras/peon_negro.png"></td><td class="blanco" id="B2"><img src="piezas/negras/peon_negro.png"></td>
+<td class="negro" id="C2"><img src="piezas/negras/peon_negro.png"></td><td class="blanco" id="D2"><img src="piezas/negras/peon_negro.png"></td>
+<td class="negro" id="E2"><img src="piezas/negras/peon_negro.png"></td><td class="blanco" id="F2"><img src="piezas/negras/peon_negro.png"></td>
+<td class="negro" id="G2"><img src="piezas/negras/peon_negro.png"></td><td class="blanco" id="H2"><img src="piezas/negras/peon_negro.png"></td>
+</tr>
+
+<tr>
+<th class="columna">3</th>
+<td class="blanco" id="A3"></td><td class="negro" id="B3"></td>
+<td class="blanco" id="C3"></td><td class="negro" id="D3"></td>
+<td class="blanco" id="E3"></td><td class="negro" id="F3"></td>
+<td class="blanco" id="G3"></td><td class="negro" id="H3"></td>
+</tr>
+
+<tr>
+<th class="columna">4</th>
+<td class="negro" id="A4"></td><td class="blanco peon blanco" id="B4"></td>
+<td class="negro" id="C4"></td><td class="blanco" id="D4"></td>
+<td class="negro" id="E4"></td><td class="blanco" id="F4"></td>
+<td class="negro" id="G4"></td><td class="blanco" id="H4"></td>
+</tr>
+
+<tr>
+<th class="columna">5</th>
+<td class="blanco" id="A5"></td><td class="negro" id="B5"></td>
+<td class="blanco" id="C5"></td><td class="negro peon negro" id="D5"></td>
+<td class="blanco" id="E5"></td><td class="negro" id="F5"></td>
+<td class="blanco" id="G5"></td><td class="negro" id="H5"></td>
+</tr>
+
+<tr>
+<th class="columna">6</th>
+<td class="negro" id="A6"></td><td class="blanco" id="B6"></td>
+<td class="negro" id="C6"></td><td class="blanco" id="D6"></td>
+<td class="negro" id="E6"></td><td class="blanco" id="F6"></td>
+<td class="negro" id="G6"></td><td class="blanco" id="H6"></td>
+</tr>
+
+<tr>
+<th class="columna">7</th>
+<td class="blanco" id="A7"><img src="piezas/blancas/peon_blanco.png"></td><td class="negro" id="B7"><img src="piezas/blancas/peon_blanco.png"></td>
+<td class="blanco" id="C7"><img src="piezas/blancas/peon_blanco.png"></td><td class="negro" id="D7"><img src="piezas/blancas/peon_blanco.png"></td>
+<td class="blanco" id="E7"><img src="piezas/blancas/peon_blanco.png"></td><td class="negro" id="F7"><img src="piezas/blancas/peon_blanco.png"></td>
+<td class="blanco" id="G7"><img src="piezas/blancas/peon_blanco.png"></td><td class="negro" id="H7"><img src="piezas/blancas/peon_blanco.png"></td>
+</tr>
+
+<tr>
+<th class="columna">8</th>
+<td class="negro" id="A8"><img src="piezas/blancas/torre_blanca.png"></td><td class="blanco" id="B8"><img src="piezas/blancas/caballo_blanco.png"></td>
+<td class="negro" id="C8"><img src="piezas/blancas/alfil_blanco.png"></td><td class="blanco" id="D8"><img src="piezas/blancas/reina_blanca.png"></td>
+<td class="negro" id="E8"><img src="piezas/blancas/rey_blanco.png"></td><td class="blanco" id="F8"><img src="piezas/blancas/alfil_blanco.png"></td>
+<td class="negro" id="G8"><img src="piezas/blancas/caballo_blanco.png"></td><td class="blanco" id="H8"><img src="piezas/blancas/torre_blanca.png"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
