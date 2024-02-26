@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE software [
+<!--DEFINICIÓN DE ELEMENTOS-->
+<!ELEMENT software (programa)+>
+<!ELEMENT programa (titulo, (español|ingles), precio, categoria,descripcion,departamentos, web?, caratula?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ingles EMPTY>
+<!ELEMENT español EMPTY>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT departamentos (departamento)+>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT caratula (#PCDATA)>
+<!--Definición de atributos-->
+<!ATTLIST programa codigo CDATA #REQUIRED>
+<!ATTLIST programa version CDATA #REQUIRED>
+<!ATTLIST programa año CDATA #IMPLIED>
+<!ATTLIST programa
+sistema_operativo (windows|mac) "windows">
+]>
+<software>
+    <programa codigo="p1" version="15.0" año="2015"
+    sistema_operativo="mac">
+<titulo>Adobe Photoshop</titulo>
+<ingles />
+<precio>120</precio>
+<categoria>Diseño</categoria>
+<descripcion>
+    Programa para el diseño de elementos gráficos para la web. Dispone de numerosos plugin´s
+    que ayudan en el trabajo de creación de imágenes.
+</descripcion>
+<departamentos>
+    <departamento>diseño</departamento>
+    <departamento>informática</departamento>
+</departamentos>
+<web>http://www.adobe.es</web>
+<caratula>caratulas/photoshop.jpg</caratula>
+</programa>
+</software>

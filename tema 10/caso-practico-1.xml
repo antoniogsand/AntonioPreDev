@@ -1,0 +1,24 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="caso-practico-1.css" type="text/css"?>
+
+<biblioteca ciudad = "Malaga">
+<informatica>
+    <libro>
+        <nombre>Introduccion a xml</nombre>
+        <editorial>Paraninfo</editorial>
+        <paginas>345</paginas>
+    </libro>
+    <libro>
+        <nombre>CSS3</nombre>
+        <editorial>Sintesis</editorial>
+        <paginas>234</paginas>
+    </libro>
+</informatica>
+<literatura>
+    <libro>
+        <nombre>El señor de los anillos</nombre>
+        <editorial>Minotauro</editorial>
+        <pagina>234</pagina>
+    </libro>
+</literatura>
+</biblioteca>
