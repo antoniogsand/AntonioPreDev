@@ -68,7 +68,7 @@
 *por fin me necesites.*
 #### El siguiente libro me gustó mucho cuando lo leí, lo recomiendo
 
-![Libro](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas)
+![Libro](C:\Users\anapi\OneDrive\Escritorio\Clase\LenguajeDeMarcas\2t-Antonio-Garc-a\imagenes\ensayo-sobre-la-ceguera.jpg)
 
 <details>
 <summary>Pulsa para una bola extra.</summary>
