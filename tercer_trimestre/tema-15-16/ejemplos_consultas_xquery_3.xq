@@ -1,0 +1,6 @@
+xquery version"1.0" encoding"UTF-8";
+(: Valor de los coches:)
+<valor>
+Total:{sum(//coche/sum(precio))}
+Con IVA:{sum(//coche/sum(precio))*1.16}
+</valor>

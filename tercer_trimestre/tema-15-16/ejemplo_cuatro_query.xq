@@ -1,0 +1,2 @@
+"Coches azules de cordoba",
+doc("concesionario_cordoba.xml")/concesionario/coche[color="Azul"]/marca/text()

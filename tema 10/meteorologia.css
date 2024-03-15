@@ -1,0 +1,115 @@
+*{
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+temperatura{
+display: block;
+height: 220px;
+border-style: solid;
+border-width: 5px;
+width: 1010px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 40px;
+box-shadow: 10px 10px 10px grey;
+}
+
+lugar{
+float: left;
+height: 210px;
+}
+
+fecha{
+margin-top: 20px;
+text-shadow: 10px 10px 10px grey;
+}
+
+maxima, minima{
+margin-top: 12px;
+display: block;
+text-align: center;
+font-weight: bold;
+}
+
+poblacion{
+width: 200px;
+background-color: black;
+color: white;
+display: block;
+font-size: 40px;
+text-align: center;
+padding: 5px;
+border-top-left-radius: 35px;
+}
+
+fecha{
+text-align: center;
+display: block;
+font-size: 30px;
+}
+
+grados{
+color: chocolate;
+font-size: 30px;
+font-weight: bold;
+}
+
+previsiones{
+float: left;
+width: 800px;
+text-align: center;
+}
+
+prevision{
+padding-top: 10px;
+float: left;
+width: 200px;
+height: 210px;
+transition: all 2s;
+}
+
+prevision:hover{
+transform: translateY(100px);
+scale: (2,2);
+}
+
+hora{
+font-weight: bold;
+font-size: 20px;
+display: block;
+height: 40px;
+}
+
+prevision[estado= "nubes"]{
+background-image: url(imagenes/nube.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: lightgray;
+}
+
+prevision[estado= "sol"]{
+background-image: url(imagenes/sol.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: lightgray;
+}
+prevision[estado= "lluvia"]{
+background-image: url(imagenes/nube.gif);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: lightgray;
+}
+prevision[estado= "nieve"]{
+background-image: url(imagenes/snow-fall-8978_128.gif);
+border-top-right-radius: 33px;
+border-bottom-right-radius: 33px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-color: lightgray;
+}

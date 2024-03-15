@@ -1,0 +1,49 @@
+<!DOCTYPE factura [
+
+    <!ELEMENT factura (datos-emisor, datos-cliente, detalle-factura, importe)> <!-- Esto indica que el elemento factura PUEDE estar compuesto de los elementos dentro del parenteris -->
+        <!ATTLIST factura numero CDATA #REQUIRED> <!-- ATTLIST crea atributos para el elemento que especifiquemos, numero seria el nombre, CDATA el tipo de input y REQUIRED indica que es obligatorio -->
+        <!ATTLIST factura fecha CDATA #REQUIRED>
+    <!ELEMENT datos-emisor (nombre, cif, telefono)>
+    <!ELEMENT datos-cliente (nombre, cif, telefono)>
+        <!ELEMENT nombre (#PCDATA)> <!-- Esta tabulacion es simplemente visual para que se entienda mejor la jerarquia de elenentos -->
+        <!ELEMENT cif (#PCDATA) >
+        <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT detalle-factura (articulo*)> <!-- El simbolo "+" obliga a introducir al menos un elemento tipo articulo -->
+        <!ATTLIST articulo codigo ID #REQUIRED> <!-- Mediante ID nos aseguramos de que el codigo sea unico de cada elemento -->
+        <!ATTLIST articulo tipo (Libro|DVD|Varios) #IMPLIED> <!-- con "|" dentro de parentesis indicamos que UNO de los valores es obligatorio, IMPLIED indica que el atributo en si no es obligatorio -->
+        <!ATTLIST articulo pvp CDATA #REQUIRED>
+        <!ELEMENT articulo (descripcion,cantidad,oferta?)>
+            <!ELEMENT descripcion (#PCDATA)>
+            <!ELEMENT cantidad (#PCDATA)>
+            <!ELEMENT oferta (#PCDATA)> <!-- La interrogacion hace que el atributo aparezca 0 o 1 vez y en caso de no aparecer EMPTY hace que no se muestre.
+            Abajo se indica el elemento vacio a través de  <oferta /> -->
+           
+    <!ELEMENT importe (#PCDATA) >
+
+]>
+
+<factura numero="27" fecha="18/12/2013">
+    <datos-emisor>
+        <nombre>Libreria Perez</nombre>
+        <cif>44555666B</cif>
+        <telefono>777888999</telefono>
+    </datos-emisor>
+    <datos-cliente>
+        <nombre>Biblioteca Xantrea</nombre>
+        <cif>33111222A</cif>
+        <telefono>333999444</telefono>
+    </datos-cliente>
+    <detalle-factura>
+        <articulo codigo="AW7" tipo="Libro" pvp="25€">
+            <descripcion>Analitica Web 2.0</descripcion>
+            <cantidad>1</cantidad>
+            <oferta>SI</oferta>
+        </articulo>
+        <articulo codigo="CP5" tipo="DVD" pvp="30€">
+            <descripcion>Curso HTML</descripcion>
+            <cantidad>2</cantidad>
+            <oferta /> 
+        </articulo>
+    </detalle-factura>
+    <importe>85€</importe>
+</factura>
