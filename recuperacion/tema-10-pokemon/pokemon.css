@@ -1,0 +1,208 @@
+*{
+    margin: auto; 
+    display:inline-block;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+PokeDAW {
+    width: 100%;
+    height: 100%;
+    background-image: url("imagenes/fondo/fondo_pokemon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+Pokemon {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 5px solid black;
+  }
+  
+  Nombre {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  Descripcion{
+    font-size: 17px;
+    text-align: center;
+  }
+  
+
+
+  Genero, Habilidades, Nivel, Fuerza, Evolución, puntos_vida {
+    font-size: 17px;
+    text-align: left;
+  }
+
+
+
+  Habilidades::before{
+    content: " Habilidades: ";
+    color: #fffb02;
+  } 
+  
+  Nivel::before{
+    content: " Nivel: ";
+    color: #fffb02;
+  } 
+
+  Fuerza::before{
+    content: " Fuerza: ";
+    color: #fffb02;
+  }
+
+  Evolucion::before{
+    content: " Evolución: ";
+    color: #fffb02;
+    font-size: 17px;
+  } 
+
+  puntos_vida::before{
+    font-size: 17px;
+    content: " Puntos de Vida: ";
+    color: rgb(255, 0, 0);
+  } 
+
+
+  Pokemon[Tipo = "Fuego"]{
+      background-color: #e03d0bc9;   
+  }
+
+  Pokemon[Tipo = "Tierra"]{
+      background-color: #553700bb;
+  }
+
+  Pokemon[Tipo = "Agua"]{
+      background-color: #2391e6c2;
+  }
+
+  Pokemon[Tipo = "Planta"]{
+      background-color: #3cb80fbb;
+  }
+
+  
+  Imagen{
+    width: 300px;
+    height: 650px;
+    float: left;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+Imagen[imagen="Azumarill"]{
+  background-image: url("imagenes/agua/Azumarill.webp");
+}
+
+Imagen[imagen="Bulbasaur"]{
+  background-image: url("imagenes/planta/Bulbasaur.webp");
+}
+
+Imagen[imagen="Cubone"]{
+  background-image: url("imagenes/tierra/Cubone.webp");
+}
+
+Imagen[imagen="Onix"]{
+  background-image: url("imagenes/tierra/Onix.webp");
+}
+
+Imagen[imagen="Arcanine"]{
+  background-image: url("imagenes/fuego/Arcanine.webp");
+} 
+
+Imagen[imagen="Braixen"]{
+  background-image: url("imagenes/fuego/Braixen.webp");
+}
+
+Imagen[imagen="Charmander"]{
+  background-image: url("imagenes/fuego/Charmander.webp");
+}
+
+Imagen[imagen="Cherubi"]{
+  background-image: url("imagenes/planta/Cherubi.png");
+}
+
+Imagen[imagen="Horsea"]{
+  background-image: url("imagenes/agua/Horsea.webp");
+}
+
+
+Imagen[imagen="Darumaka"]{
+  background-image: url("imagenes/fuego/Darumaka.webp");
+}
+
+Imagen[imagen="Magikarp"]{
+  background-image: url("imagenes/agua/Magikarp.webp");
+}
+
+Imagen[imagen="Fuecoco"]{
+  background-image: url("imagenes/fuego/Fuecoco.webp");
+}
+
+Imagen[imagen="Panpour"]{
+  background-image: url("imagenes/agua/Panpour.webp");
+}
+
+Imagen[imagen="Primarina"]{
+  background-image: url("imagenes/agua/Primarina.webp");
+}
+
+Imagen[imagen="Lombre"]{
+  background-image: url("imagenes/planta/Lombre.webp");
+}
+
+Imagen[imagen="Oddish"]{
+  background-image: url("imagenes/planta/Oddish.webp");
+}
+
+Imagen[imagen="Squirtle"]{
+  background-image: url("imagenes/agua/Squirtle.webp");
+}
+
+Imagen[imagen="Heatmor"]{
+  background-image: url("imagenes/fuego/Heatmor.webp");
+}
+
+Imagen[imagen="Rhyhorn"]{
+  background-image: url("imagenes/tierra/Rhyhorn.webp");
+}
+
+Imagen[imagen="Shiinotic"]{
+  background-image: url("imagenes/planta/Shiinotic.webp");
+}
+
+Imagen[imagen="Trapinch"]{
+  background-image: url("imagenes/tierra/Trapinch.webp");
+}
+
+Imagen[imagen="Incineroar"]{
+  background-image: url("imagenes/fuego/Incineroar.webp");
+}
+
+Imagen[imagen="Litwick"]{
+  background-image: url("imagenes/fuego/Litwick.webp");
+}
+
+Imagen[imagen="Rapidash"]{
+  background-image: url("imagenes/fuego/Rapidash.webp");
+}
+
+Imagen[imagen="Torkoal"]{
+  background-image: url("imagenes/fuego/Torkoal.webp");
+}

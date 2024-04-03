@@ -1,0 +1,86 @@
+
+@font-face {
+font-family: fuenteNav;
+src: url(fuente/EduNSWACTFoundation-VariableFont_wght.ttf);    
+}
+
+header {
+width: 400px;
+height: 400px;
+margin: auto;
+text-align: center;
+transform: rotate(90deg);
+padding-top: 50px;
+position: -webkit-sticky; 
+position: sticky;
+top: 0;
+box-sizing: border-box;
+
+border-radius: 50px;
+}
+
+.piezaUno{
+transform: rotate(-90deg);   
+}
+
+video{
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    right: 0;
+    z-index: -1;
+    }
+
+
+.piezaDos{
+transform: rotate(-90deg);
+}
+
+nav{
+overflow: hidden;
+font-size: 35px;
+float: left;
+display: block;
+color: rgb(139, 23, 23);
+text-align: center;
+font-family: fuenteNav;
+}
+
+.texto{
+    font-family: cursive;
+}
+
+a:visited {
+    color: rgb(225, 16, 16);
+  }
+
+a{
+    padding-left: 180px;
+}
+
+.caballo{
+text-align: center;
+}
+
+#boton{
+    position: sticky;
+    width: 120px;
+    height: 120px;
+    top: 90%;
+    left: 80%;
+    border-radius: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+img{
+    border-radius: 50%;
+}
+
+
+  

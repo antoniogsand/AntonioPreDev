@@ -1,0 +1,258 @@
+.caja4colores{
+    box-sizing: border-box;
+    border-bottom: solid 50px green;
+    border-left: solid 50px rgb(239, 11, 11);
+    border-right: solid 50px rgb(255, 212, 39);
+    border-top :  solid 50px blue;
+    height: 100px;
+    width: 100px;
+}
+
+.caja3colores{
+    box-sizing: border-box;
+    border-top: solid 50px blue;
+    border-left: solid 50px red;
+    border-bottom: solid 50px green;
+    border-right: solid 50px transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.caja1triangulo{
+    box-sizing: border-box;
+    border-top: solid 50px blue;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+    border-bottom: solid 50px transparent;
+    height: 100px;
+    width: 100px;
+}
+
+.cajacirculo{
+    box-sizing: border-box;
+    border-top: solid 50px green;
+    border-left: solid 50px green;
+    border-right: solid 50px green;
+    border-bottom: solid 50px green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.cajacirculoizquierdo{
+    box-sizing: border-box;
+    border-left: solid 50px green;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.cajacirculoabajo{
+    box-sizing: border-box;
+    border-bottom: solid 50px green;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.cajabordepuntos{
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: dotted;
+    border-width: 5px;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.cajaamarillanegra{
+
+    box-sizing: border-box;
+    background-color: yellow;
+    border:solid 4px;
+    width: 450px; 
+    height: 300px;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-left-width: 40px;
+    border-color: black;
+}
+
+.cajadobleuno{
+    box-sizing: border-box;
+    border: solid 6px;
+    background-color: rgb(236, 160, 134);
+    border-bottom-color: blanchedalmond;
+    border-right-color: blanchedalmond;
+    border-left-color: brown;
+    border-top-color: brown;
+    border-bottom-width: 5px;
+    width: 250px;
+    height: 150px;
+    border-bottom-right-radius: 6%;
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+}
+
+.cajadobledos{
+    box-sizing: border-box;
+    border: solid 5px;
+    border-right-color: brown;
+    border-bottom-color: brown;
+    border-left-color: blanchedalmond;
+    border-top-color: blanchedalmond;
+    border-bottom-width: 5px;
+    width: 238px;
+    height: 139px;
+}
+
+.cajasalmondos{
+
+    box-sizing: border-box;
+    border: solid 9px;
+    background-color: rgb(236, 160, 134);
+    border-bottom-color: blanchedalmond;
+    border-right-color: blanchedalmond;
+    border-left-color: brown;
+    border-top-color: brown;
+    border-bottom-width: 5px;
+    width: 250px;
+    height: 150px;
+    border-bottom-right-radius: 6%;
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
+}
+
+.cajaverdeoscuro{
+
+    box-sizing: border-box;
+    border: solid 9px;
+    border-right-color: darkgreen;
+    border-bottom-color: darkgreen;
+    background-color: darkolivegreen;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-left-color: black;
+    border-top-color: black;
+    border-bottom-width: 9px;
+    width: 238px;
+    height: 139px;
+    border-style: inset;
+}
+
+
+
+.cajabordesazules{
+    box-sizing: border-box;
+    background-color: rgb(226, 220, 220);
+    border: solid 2px;
+    height: 200px;
+    width: 300px;
+    border-bottom-color: blue;
+    border-bottom-width: 15px;
+    border-right-color: blue;
+    border-right-width: 15px;
+    border-left-color: deepskyblue;
+    border-left-width: 15px;
+    border-top-color: deepskyblue;
+    border-top-width: 15px;
+}
+
+.cajacoloresmezclados{
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 4%;
+    background-image: linear-gradient(red, yellow);
+    border: solid 2px;
+    border-bottom-color: red;
+    border-bottom-width: 15px;
+    border-left-color: red;
+    border-left-width: 5px;
+    border-right-color: red;
+    border-right-width: 5px;
+    border-top-color: red;
+    border-top-width: 5px;
+    height: 300px;
+    width: 600px;
+    
+}
+
+.colores1{
+    color: blueviolet;
+}
+
+.cajabordesmulticolores{
+
+    box-sizing: border-box;
+    border: solid 2px;
+    border-top-color: yellow;
+    border-top-width: 20px;
+    border-bottom-color: red;
+    border-bottom-width: 20px;
+    border-left-color: blue;
+    border-left-width: 20px;
+    border-right-color: green;
+    border-right-width: 20px;
+    height: 300px;
+    width: 600px;
+}
+
+.cajarosauno{
+    box-sizing: border-box;
+    border: solid 1px;
+    width: 600px;
+    height: 300px;
+    border-top-right-radius: 20%;
+    border-top-color: violet;
+    border-top-width: 15px;
+    border-bottom-right-radius: 20%;
+    border-bottom-color: violet;
+    border-bottom-width: 15px;
+    border-right-width: 15px;
+    border-right-color: violet;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-left-color: violet;
+    border-left-width: 15px;
+}
+
+.cajarosados{
+    box-sizing: border-box;
+    border: solid 1px;
+    width: 500px;
+    height: 200px;
+    margin-top: 6%;
+    margin-left: 6%;
+    border-top-right-radius: 20%;
+    border-top-color: violet;
+    border-top-width: 15px;
+    border-bottom-right-radius: 20%;
+    border-bottom-color: violet;
+    border-bottom-width: 15px;
+    border-right-width: 15px;
+    border-right-color: violet;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-left-color: violet;
+    border-left-width: 15px;
+}
+
+.cajaredonda{
+
+    box-sizing: border-box;
+    background-color: rgb(239, 191, 100);
+    border: solid 2px;
+    height: 300px;
+    width: 450px;
+    border-style: dashed;
+    border-radius: 100%;
+}
+
+.interrogacion{
+    padding-top: 50px;
+    text-align: center;
+    color: blue;
+}

@@ -1,0 +1,38 @@
+*{
+    height: 100%;
+}
+
+div.azul{
+    background-color: blue;
+    height: 20%;
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    
+}
+
+div.rojo{
+    background-color: red;
+    width: 20%;
+    height: 80%;
+    float: left;
+}
+
+div.verde{
+    background-color: green;
+    width: 80%;
+    float: right;
+    height: 40%;
+    position: relative; 
+
+}
+
+div.amarillo{
+    background-color: yellow;
+    width: 80%;
+    float: right;
+    height: 40%;
+    position: relative; 
+
+}
+

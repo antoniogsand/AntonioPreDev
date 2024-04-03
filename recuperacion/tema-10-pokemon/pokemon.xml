@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="pokemon.css"?>
+<!DOCTYPE PokeDAW [
+  <!ELEMENT PokeDAW (Pokemon+)>
+  <!ELEMENT Pokemon (Nombre, Imagen, Descripcion, Genero, Estado)>
+  <!ATTLIST Pokemon Tipo (Agua|Fuego|Tierra|Planta) #REQUIRED>
+  <!ELEMENT Nombre (#PCDATA)>
+  <!ATTLIST Nombre NumPokedex CDATA #REQUIRED>
+  <!ELEMENT Imagen EMPTY>
+  <!ATTLIST Imagen imagen CDATA #REQUIRED>
+  <!ELEMENT Descripcion (#PCDATA)>
+  <!ELEMENT Genero (#PCDATA)>
+  <!ELEMENT Estado (Habilidades+, Nivel, Fuerza, Evolucion?, puntos_vida?)>
+  <!ELEMENT Habilidades (#PCDATA)>
+  <!ATTLIST Habilidades destreza CDATA #REQUIRED>
+  <!ELEMENT Nivel (#PCDATA)>
+  <!ELEMENT Fuerza (#PCDATA)>
+  <!ELEMENT Evolucion (#PCDATA)>
+  <!ELEMENT puntos_vida (#PCDATA)>
+]>
+
+<PokeDAW>
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="1">Azumarill</Nombre>
+    <Imagen imagen="Azumarill"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="9">bicho con poderes</Habilidades>
+      <Nivel>25</Nivel>
+      <Fuerza>9</Fuerza>
+      <puntos_vida>60</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="2">Bulbasaur</Nombre>
+    <Imagen imagen="Bulbasaur"></Imagen>
+    <Descripcion>Pokemon de planta </Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="10">bicho con poderes</Habilidades>
+      <Nivel>1</Nivel>
+      <Fuerza>1</Fuerza>
+      <puntos_vida>23</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+  <Pokemon Tipo="Tierra">
+    <Nombre NumPokedex="3">Cubone</Nombre>
+    <Imagen imagen="Cubone"></Imagen>
+    <Descripcion>Pokemon de tierra</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="3">bicho con poderes</Habilidades>
+      <Nivel>6</Nivel>
+      <Fuerza>19</Fuerza>
+      <puntos_vida>1</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Tierra">
+    <Nombre NumPokedex="4">Onix</Nombre>
+    <Imagen imagen="Onix"></Imagen>
+    <Descripcion>Pokemon de tierra</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="5">bicho con poderes</Habilidades>
+      <Nivel>6</Nivel>
+      <Fuerza>90</Fuerza>
+      <puntos_vida>99</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="5">Arcanine</Nombre>
+    <Imagen imagen="Arcanine"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="8">bicho con poderes</Habilidades>
+      <Nivel>6</Nivel>
+      <Fuerza>43</Fuerza>
+      <puntos_vida>66</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="6">Braixen</Nombre>
+    <Imagen imagen="Braixen"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="2">bicho con poderes</Habilidades>
+      <Nivel>1</Nivel>
+      <Fuerza>3</Fuerza>
+      <puntos_vida>6</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="7">Charmander</Nombre>
+    <Imagen imagen="Charmander"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>femenino</Genero>
+    <Estado>
+      <Habilidades destreza="9">bicho con poderes</Habilidades>
+      <Nivel>2</Nivel>
+      <Fuerza>21</Fuerza>
+      <puntos_vida>58</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="8">Cherubi</Nombre>
+    <Imagen imagen="Cherubi"></Imagen>
+    <Descripcion>Pokemon de planta</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="2">bicho con poderes</Habilidades>
+      <Nivel>5</Nivel>
+      <Fuerza>51</Fuerza>
+      <puntos_vida>88</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="9">Horsea</Nombre>
+    <Imagen imagen="Horsea"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="7">bicho con poderes</Habilidades>
+      <Nivel>3</Nivel>
+      <Fuerza>12</Fuerza>
+      <puntos_vida>11</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="10">Darumaka</Nombre>
+    <Imagen imagen="Darumaka"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>femenino</Genero>
+    <Estado>
+      <Habilidades destreza="5">bicho con poderes</Habilidades>
+      <Nivel>7</Nivel>
+      <Fuerza>99</Fuerza>
+      <puntos_vida>83</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="11">Magikarp</Nombre>
+    <Imagen imagen="Magikarp"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="1">bicho con poderes</Habilidades>
+      <Nivel>3</Nivel>
+      <Fuerza>72</Fuerza>
+      <puntos_vida>47</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="12">Fuecoco</Nombre>
+    <Imagen imagen="Fuecoco"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="5">bicho con poderes</Habilidades>
+      <Nivel>9</Nivel>
+      <Fuerza>100</Fuerza>
+      <puntos_vida>85</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="13">Panpour</Nombre>
+    <Imagen imagen="Panpour"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="1">bicho con poderes</Habilidades>
+      <Nivel>3</Nivel>
+      <Fuerza>20</Fuerza>
+      <puntos_vida>35</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="14">Primarina</Nombre>
+    <Imagen imagen="Primarina"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="5">bicho con poderes</Habilidades>
+      <Nivel>6</Nivel>
+      <Fuerza>39</Fuerza>
+      <puntos_vida>4</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="15">Lombre</Nombre>
+    <Imagen imagen="Lombre"></Imagen>
+    <Descripcion>Pokemon de planta</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="2">bicho con poderes</Habilidades>
+      <Nivel>12</Nivel>
+      <Fuerza>10</Fuerza>
+      <puntos_vida>135</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="16">Oddish</Nombre>
+    <Imagen imagen="Oddish"></Imagen>
+    <Descripcion>Pokemon de planta</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="3">bicho con poderes</Habilidades>
+      <Nivel>8</Nivel>
+      <Fuerza>94</Fuerza>
+      <puntos_vida>84</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Agua">
+    <Nombre NumPokedex="17">Squirtle</Nombre>
+    <Imagen imagen="Squirtle"></Imagen>
+    <Descripcion>Pokemon de agua</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="1">bicho con poderes</Habilidades>
+      <Nivel>8</Nivel>
+      <Fuerza>62</Fuerza>
+      <puntos_vida>44</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="18">Heatmor</Nombre>
+    <Imagen imagen="Heatmor"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>femenino</Genero>
+    <Estado>
+      <Habilidades destreza="10">bicho con poderes</Habilidades>
+      <Nivel>10</Nivel>
+      <Fuerza>100</Fuerza>
+      <puntos_vida>1</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Tierra">
+    <Nombre NumPokedex="19">Rhyhorn</Nombre>
+    <Imagen imagen="Rhyhorn"></Imagen>
+    <Descripcion>Pokemon de tierra</Descripcion>
+    <Genero>femenino</Genero>
+    <Estado>
+      <Habilidades destreza="8">bicho con poderes</Habilidades>
+      <Nivel>8</Nivel>
+      <Fuerza>69</Fuerza>
+      <puntos_vida>66</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="20">Shiinotic</Nombre>
+    <Imagen imagen="Shiinotic"></Imagen>
+    <Descripcion>Pokemon de planta</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="4">bicho con poderes</Habilidades>
+      <Nivel>4</Nivel>
+      <Fuerza>20</Fuerza>
+      <puntos_vida>420</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Planta">
+    <Nombre NumPokedex="21">Trapinch</Nombre>
+    <Imagen imagen="Trapinch"></Imagen>
+    <Descripcion>Pokemon de planta</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="7">bicho con poderes</Habilidades>
+      <Nivel>2</Nivel>
+      <Fuerza>33</Fuerza>
+      <puntos_vida>13</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="22">Incineroar</Nombre>
+    <Imagen imagen="Incineroar"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>femenino</Genero>
+    <Estado>
+      <Habilidades destreza="3">bicho con poderes</Habilidades>
+      <Nivel>2</Nivel>
+      <Fuerza>18</Fuerza>
+      <Evolucion>Torracat</Evolucion>
+      <puntos_vida>20</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="23">Litwick</Nombre>
+    <Imagen imagen="Litwick"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="5">bicho con poderes</Habilidades>
+      <Nivel>4</Nivel>
+      <Fuerza>39</Fuerza>
+      <Evolucion>Lampent</Evolucion>
+      <puntos_vida>55</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="24">Rapidash</Nombre>
+    <Imagen imagen="Rapidash"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>Masculino</Genero>
+    <Estado>
+      <Habilidades destreza="7">bicho con poderes</Habilidades>
+      <Nivel>6</Nivel>
+      <Fuerza>68</Fuerza>
+      <Evolucion>Orphegasus</Evolucion>
+      <puntos_vida>75</puntos_vida>
+    </Estado>
+  </Pokemon>
+
+
+  <Pokemon Tipo="Fuego">
+    <Nombre NumPokedex="25">Torkoal</Nombre>
+    <Imagen imagen="Torkoal"></Imagen>
+    <Descripcion>Pokemon de fuego</Descripcion>
+    <Genero>masculino</Genero>
+    <Estado>
+      <Habilidades destreza="10">bicho con poderes</Habilidades>
+      <Nivel>10</Nivel>
+      <Fuerza>99</Fuerza>
+      <puntos_vida>100</puntos_vida>
+    </Estado>
+  </Pokemon>
+</PokeDAW>

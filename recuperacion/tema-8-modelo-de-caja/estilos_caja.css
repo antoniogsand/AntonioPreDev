@@ -1,0 +1,81 @@
+header {
+    padding: 100px;
+    text-align: center;
+  /* Aplica un degradado de color sobre en el fondo */
+    background-image: linear-gradient(rgba(242, 6, 6, 0.822), rgba(36, 8, 195, 0.938));
+    color: white;
+  }
+
+p {
+    /* para centrar todas las etiquetas p del documentos sin necesidad de tener que ir poniendoles clases o id una por una */
+    text-align: center;
+}
+
+body{
+    background-image: url(imagen/flores2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.contenido{
+ 
+   background-color: rgb(29, 219, 248);
+   width: 500px;
+   border: 20px rgb(255, 0, 64) solid;
+   padding: 100px;
+   margin: 40px;
+}
+
+.padding{
+    text-align: center;
+    background-color: seagreen;
+    width: 500px;
+    border: 20px yellow solid;
+    padding: 100px;
+    margin: 40px;
+}
+
+.borde{
+    text-align: center;
+    background-color: rgba(233, 218, 17, 0.369);
+    width: 500px;
+    border: 20px rgb(191, 20, 207) solid;
+    padding: 100px;
+    margin: 40px;
+    
+}
+
+.margin{
+    text-align: center;
+    /* este es el color que tendra la caja por dentro y que afectará al contenido y al padding */
+    background-color: rgba(15, 37, 56, 0.369);
+    width: 500px;
+    border: 20px rgb(153, 110, 0) solid;
+    padding: 100px;
+    margin-top: 15rem;
+    margin-left: 60px;
+}
+
+.sin{
+    width: 400px;
+    height: 200px;
+    padding: 100px;
+    border-color: darkcyan 3px ;
+    border-width: 5px;
+    background-color: dodgerblue;
+    border: solid;
+    margin: 40px;
+}
+
+.con{
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    padding: 100px;
+    border-color: darkcyan 3px ;
+    border-width: 5px;
+    background-color: dodgerblue;
+    border: solid;
+    margin: 40px;
+}

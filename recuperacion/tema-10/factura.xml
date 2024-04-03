@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+<!ELEMENT factura (datosEmisor, datosCliente, detalle, importe)>
+<!ELEMENT datosEmisor (nombre, cif, telefono)>
+<!ELEMENT datosCliente (nombre, cif, telefono)>
+<!--A continuación establezco las reglas en cuanto a contenido de los elementos que contenidos tanto en datos cliente como en datos emisor-->
+<!ELEMENT nombre (#PCDATA)> <!--#PCDATA: Indica que el elemento puede contener cualquier tipo de dato de caracter, incluyendo espacios en blanco, tabulaciones, saltos de línea y caracteres especiales.-->
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT detalle-factura (articulo*)> <!--El asterisco indica que el elemento articulo puede aparecer una o más veces dentro del elemento detalle-factura-->
+<!ATTLIST articulo codigoArticulo CDATA ID #REQUIRED> <!--El id hace que el codigo se vuelve único en cada elemento-->
+<!ATTLIST articulo tipo (Libro|DVD|Varios) #IMPLIED> <!--#IMPLIED, lo que indica es que el atributo es opcional.Con el símbolo | se indica que puede tener uno de los valores Libro, DVD o Varios-->
+<!ATTLIST articulo pvp CDATA #REQUIRED> <!--#IMPLIED, lo que indica es que el atributo es opcional.Con el símbolo | se indica que puede tener uno de los valores Libro, DVD o Varios-->
+<!ELEMENT articulo (descripcion, cantidad, oferta?)><!--La interrogación significa que el elemento puede aparecer o no, pero sólo una vez-->
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT oferta (#PCDATA)>
+<!ATTLIST factura numero CDATA #REQUIRED>
+<!ATTLIST factura fecha CDATA #REQUIRED>
+<!ELEMENT importe (#PCDATA)>
+]>
+
+
+
+<factura numero="27" fecha="18/12/2013">
+  <datos-emisor>
+  <nombre>Libreria Perez</nombre>
+  <cif>44555666B</cif>
+  <telefono>777888999</telefono>
+  </datos-emisor>
+  <datos-cliente>
+  <nombre>Biblioteca Xantrea</nombre>
+  <cif>33111222A</cif>
+  <telefono>333999444</telefono>
+  </datos-cliente>
+  <detalle-factura>
+  <articulo codigo="AW7" tipo="Libro" pvp="25€">
+  <descripcion>Analitica Web 2.0</descripcion>
+  <cantidad>1</cantidad>
+  <oferta>SI</oferta>
+  </articulo>
+  <articulo codigo="CP5" tipo="DVD" pvp="30€">
+  <descripcion>Curso HTML</descripcion>
+  <cantidad>2</cantidad>
+  <oferta /> 
+  </articulo>
+  </detalle-factura>
+  <importe>85€</importe>
+</factura>

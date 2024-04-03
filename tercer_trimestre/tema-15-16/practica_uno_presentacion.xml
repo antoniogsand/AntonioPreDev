@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario_unico>
+  <coche matricula=" 6732KPC">
+    <marca>Seat</marca>
+    <modelo>Ateca</modelo>
+    <precio_iva tipo="21%">27830</precio_iva>
+    <combustible>Gasolina</combustible>
+  </coche>
+  <coche matricula=" 8280KWT">
+    <marca>Volkswagen</marca>
+    <modelo>Golf</modelo>
+    <precio_iva tipo="21%">30250</precio_iva>
+    <combustible>Diesel</combustible>
+  </coche>
+  <coche matricula=" 3245BWX">
+    <marca>Renault</marca>
+    <modelo>Megane</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Diesel</combustible>
+  </coche>
+  <coche matricula=" 33895KWX">
+    <marca>Audi</marca>
+    <modelo>A4</modelo>
+    <precio_iva tipo="21%">13310</precio_iva>
+  </coche>
+  <coche matricula=" 3345PWX">
+    <marca>Ford</marca>
+    <modelo>Fiesta</modelo>
+    <precio_iva tipo="21%">15730</precio_iva>
+  </coche>
+  <coche matricula=" 3245DFX">
+    <marca>Peugeot</marca>
+    <modelo>2008</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Gasolina</combustible>
+  </coche>
+  <coche matricula=" 3245BWX">
+    <marca>Mercedes</marca>
+    <modelo>A2</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Electrico</combustible>
+  </coche>
+  <coche matricula=" 1245BWX">
+    <marca>Citroen</marca>
+    <modelo>ZX</modelo>
+    <precio_iva tipo="21%">18150</precio_iva>
+    <combustible>Electrico</combustible>
+  </coche>
+  <coche matricula=" 6232KPC">
+    <marca>Seat</marca>
+    <modelo>Arona</modelo>
+    <precio_iva tipo="21%">27830</precio_iva>
+    <combustible>Electrico</combustible>
+  </coche>
+  <coche matricula=" 8281KWT">
+    <marca>Volkswagen</marca>
+    <modelo>Golf</modelo>
+    <precio_iva tipo="21%">21780</precio_iva>
+    <combustible>Diesel</combustible>
+  </coche>
+  <coche matricula=" 3215BWX">
+    <marca>Renault</marca>
+    <modelo>Twingo</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Diesel</combustible>
+  </coche>
+  <coche matricula=" 3315KWX">
+    <marca>Audi</marca>
+    <modelo>A4</modelo>
+    <precio_iva tipo="21%">13310</precio_iva>
+  </coche>
+  <coche matricula=" 3345PWX">
+    <marca>Ford</marca>
+    <modelo>Escort</modelo>
+    <precio_iva tipo="21%">15730</precio_iva>
+  </coche>
+  <coche matricula=" 3245DFX">
+    <marca>Peugeot</marca>
+    <modelo>2008</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Gasolina</combustible>
+  </coche>
+  <coche matricula=" 3255BWX">
+    <marca>Mercedes</marca>
+    <modelo>A2</modelo>
+    <precio_iva tipo="21%">25410</precio_iva>
+    <combustible>Electrico</combustible>
+  </coche>
+  <coche matricula=" 1135BWX">
+    <marca>Citroen</marca>
+    <modelo>ZX</modelo>
+    <precio_iva tipo="21%">18150</precio_iva>
+    <combustible>Electrico</combustible>
+  </coche>
+</concesionario_unico>
