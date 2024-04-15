@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    
+<h1>Calculadora js</h1>
+<!-- readonly es una propiedad que se puede aplicar a elementos de entrada HTML
+    para convertirlos en no editables a través de la pantalla, pero si puede editarse a través de código-->
+<div class="calculadora">
+    <input type="text" id="pantalla" readonly>
+    <div class="fila-botones">
+        <input type="button" value="C" onclick="borrarUno('C')">
+        <input type="button" value="CE" onclick="borrar('CE')">
+        <input type="button" value="&#x00F7;" onclick="calcular('/')">
+        <input type="button" value="x" onclick="calcular('x')">
+    </div>    
+    <div class="fila-botones">
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="-" onclick="calcular('-')">
+    </div>
+    <div class="fila-botones">
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="+" onclick="calcular('+')">
+    </div>
+    <div class="fila-botones">
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="1/x" onclick="calcular('1/x')">
+    </div>
+    <div class="fila-botones">
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="." onclick="agregar('.')">
+        <input type="button" value="&#x221A;" onclick="calcular('raiz')">
+        <input type="button" value="&times;²" onclick="calcular('elevadoCuadrado')">
+    </div>
+    <div class="fila-botones">
+        <input type="button" value="Bin" onclick="calcular('binario')">
+        <input type="button" value="Hex" onclick="calcular('hexadecimal')">
+        <input type="button" value="=" onclick="calcular('resultado')">
+    </div>  
+</div>
+<script>
+    function agregar (value){
+        document.getElementById("pantalla").value+=value;
+    }
+    function calcular (){
+        try {
+            const resultado = eval(document.getElementById("pantalla").value);
+            document.getElementById("pantalla").value = resultado;
+        } catch (error) {
+            document.getElementById("pantalla").value = "Error";
+        }
+    }
+    function borrar (){
+        document.getElementById("pantalla").value= '';
+    }
+
+</script>
+
+</body>
+</html>

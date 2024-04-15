@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calc.css">
+  </head>
+  <body>
+    <div class="calculadora">
+      <div class="pantalla">
+        <input type="text" id="resultado" >
+      </div>
+      <div class="teclado">
+        <button onclick="borrar('C')">C</button>
+        <button onclick="agregarNumero('')">CE</button>
+        <button onclick="operar('/')">/</button>
+        <button onclick="operar('x')">x</button>
+        <button onclick="agregarNumero('7')">7</button>
+        <button onclick="agregarNumero('8')">8</button>
+        <button onclick="agregarNumero('9')">9</button>
+        <button onclick="operar('-')">-</button>
+        <button onclick="agregarNumero('4')">4</button>
+        <button onclick="agregarNumero('5')">5</button>
+        <button onclick="agregarNumero('6')">6</button>
+        <button onclick="operar('suma')">+</button>
+        <button onclick="agregarNumero('1')">1</button>
+        <button onclick="agregarNumero('2')">2</button>
+        <button onclick="agregarNumero('3')">3</button>
+        <button onclick="agregarNumero('')">1/x</button>
+        <button onclick="agregarNumero('0')">0</button>
+        <button onclick="agregarNumero('.')">.</button>
+        <button onclick="operar('raiz')">√</button>
+        <button onclick="operar('elevado')">x2</button>
+        <button onclick="operar('binario')">BIN</button>
+        <button onclick="operar2('hexadecimal')">HEX</button>
+        <button onclick="operar('igual')">=</button>
+        <button onclick="operar('')"></button>
+      </div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
