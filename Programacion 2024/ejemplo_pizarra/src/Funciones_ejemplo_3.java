@@ -1,7 +1,7 @@
 public class Funciones_ejemplo_3 {
     public static void main(String[] args) throws Exception{
 
-int  [] entrada = {3,4,5,2};
+int  [] entrada = {};
 int [] ord = ordenAscendente(entrada);
 
 for (int i =0; i<ord.length; i++){
