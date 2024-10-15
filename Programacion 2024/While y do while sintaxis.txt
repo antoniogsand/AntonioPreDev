@@ -1,0 +1,7 @@
+while (condición){ 
+   	//sentencias a ejecutar 
+}
+
+do { 
+   	//sentencias del bucle 
+} while (condición)
