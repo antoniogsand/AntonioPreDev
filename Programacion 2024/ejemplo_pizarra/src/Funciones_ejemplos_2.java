@@ -13,7 +13,7 @@ public class Funciones_ejemplos_2 {
     }
 
 public static char calcularLetraDNI (int dni){
-   
+
    //Aquí la lógica
     return 'B';
 }

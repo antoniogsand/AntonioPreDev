@@ -9,7 +9,7 @@ public class Funciones_ejemplo_4 {
         }
         System.out.println("Hay" + cantTotalPrimos + " numeros primos");
     }
-
+// que hace, que recibe, que devuelve
 public static boolean esPrimo (int numero){
     //La función comprueba si un número es primo, pero solo un número.
     int cantParaSaberSiEsPrimo= 0; 
