@@ -7,7 +7,7 @@ public class Funciones_ejemplo_4 {
                 cantTotalPrimos ++;
             }
         }
-        System.out.println("Hay" + cantTotalPrimos + " numeros primos");
+        System.out.println("Hay " + cantTotalPrimos + " numeros primos");
     }
 // que hace, que recibe, que devuelve
 public static boolean esPrimo (int numero){
