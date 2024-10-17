@@ -1,6 +1,6 @@
 public class Funciones_ejemplo_4 {
     public static void main(String[] args) throws Exception{
-        int [] numeros = {3,6,7,11};
+        int [] numeros = {3,6,7,11,6,8};
         int cantTotalPrimos = 0;
         for(int i=0; i<numeros.length; i++){
             if (esPrimo(numeros[i])==true){
