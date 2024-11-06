@@ -1,4 +1,5 @@
 public class Reloj {
+/*los atributos son objetos de la clase Contador y se les valor (por defecto o por parámetros en los constructores) */
     private Contador horas;
     private Contador minutos;
     private Contador segundos;
@@ -32,6 +33,22 @@ public class Reloj {
     public void setSegundos(Contador segundos) {
         this.segundos = segundos;
     }
+    /* se está creando un metodo incrementar y dentro del mismo se está usando el que se creo en la clase Contador */
+    public void incrementar (){
+        segundos.increment();
+        if (segundos.getNumero() == 60) {
+            segundos.setNumero(0);
+            minutos.increment();
+            if (minutos.getNumero() == 60) {
+                minutos.setNumero(0);
+                horas.increment();
+                if (horas.getNumero() == 24) {
+                    horas.setNumero(0);
+                }
+            }
+        }
+    }
+
 
     @Override
     public String toString() {
