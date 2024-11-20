@@ -53,7 +53,7 @@ public boolean alquilar (){
 public boolean devolver (){
     if (this.estadoAlquiler== true){
         this.estadoAlquiler = false;
-       LocalDateTime.now() 
+       LocalDateTime.now() ;
      
         return true;
     } return false;
