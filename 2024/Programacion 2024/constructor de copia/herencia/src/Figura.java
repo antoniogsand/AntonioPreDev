@@ -2,15 +2,17 @@ public class Figura {
     protected String color;
     protected double grosor;
 
+    public Figura (String color, double grosor){
+        this.color= color;
+        this.grosor= grosor;
+    }
+
+    // constructor de copia
     public Figura(Figura otraFigura) {
         this.color= otraFigura.color;
         this.grosor= otraFigura.grosor;
     }
 
-    public Figura (String color, double grosor){
-        this.color= color;
-        this.grosor= grosor;
-    }
 
     public String getColor() {
         return color;
