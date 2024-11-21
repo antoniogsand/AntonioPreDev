@@ -1,24 +1,35 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       
+      /* 
         Persona p1 = new Persona("Antonio", "García");
-        Dni d1 = new Dni();
-        Dni d2 = new Dni(34231254, 'A');
-        System.out.println(d1);
-      // creando en el Main el ArrayList que me permita guardar los diferentes objetos
-        ArrayList<Dni> dni = new ArrayList<Dni>();
-        dni.add(d1);
-        dni.add(d2);
-        System.out.println("Me muestra los dni del ArrayList " + dni);
-        
-        System.out.println(dni.get(1));
-       
-   
-        
+        Dni d1 = new Dni("45740671T");
+        System.out.println(d1.validarDni());
 
+      */
 
+String cadenaAleatoria = generarCadenaAleatoria();
+        System.out.println(cadenaAleatoria);
+    
+    
+    }
+    
+    private static String generarCadenaAleatoria() {
+        Random random = new Random();
+        StringBuilder cadena = new StringBuilder();
+
+        // Generar 8 dígitos aleatorios
+        for (int i = 0; i < 8; i++) {
+            cadena.append(random.nextInt(10));
+        }
+
+        // Generar una letra mayúscula aleatoria
+        char letraMayuscula = (char) (random.nextInt(26) + 'A');
+        cadena.append(letraMayuscula);
+
+        return cadena.toString();
 
     }
 }

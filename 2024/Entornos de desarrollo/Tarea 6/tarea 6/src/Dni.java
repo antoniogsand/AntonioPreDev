@@ -1,51 +1,40 @@
 import java.util.ArrayList;
 
 public class Dni {
-    private int numeros;
-    private char letra;
- 
+    private String dni;
 
 
     public Dni (){
-        this.numeros= 45740671;
-        this.letra= 'L';
+        this.dni= "";
     }
 
-    public Dni (int num, char letr){
-        this.numeros= num;
-        this.letra= letr;
+    public Dni (String dni){
+        this.dni= dni;
     }
 
-    public int getNumeros() {
-        return numeros;
+    public String getDni() {
+        return dni;
     }
 
-    public void setNumeros(int numeros) {
-        this.numeros = numeros;
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
-    public char getLetra() {
-        return letra;
+
+
+
+    public boolean validarDni (){
+        if(dni.length() ==9 && dni.charAt(8)== 'T' || dni.charAt(8)== 'R' || dni.charAt(8)== 'W' || dni.charAt(8)== 'A' || dni.charAt(8)== 'G' || dni.charAt(8)== 'M' || dni.charAt(8)== 'Y' || dni.charAt(8)== 'F' || dni.charAt(8)== 'P' || dni.charAt(8)== 'D' || dni.charAt(8)== 'X' || dni.charAt(8)== 'B' || dni.charAt(8)== 'N' || dni.charAt(8)== 'J' || dni.charAt(8)== 'Z' || dni.charAt(8)== 'S' || dni.charAt(8)== 'Q' || dni.charAt(8)== 'V' || dni.charAt(8)== 'H' || dni.charAt(8)== 'L' || dni.charAt(8)== 'C' || dni.charAt(8)== 'K' || dni.charAt(8)== 'E'){
+        return true;
+        }return false;
     }
 
-    public void setLetra(char letra) {
-        this.letra = letra;
-    }    
 
-
-
-    public static void tamanyoDni (String dni){
-        if(dni.length() ==9 && dni.charAt(8)== 'A'){
-            System.out.println("Correcto");
-        }else {
-            System.out.println("Incorrecto");
-        }
-    }
 
     
     @Override
     public String toString() {
-        return "Dni [numeros=" + numeros + ", letra=" + letra + "]";
+        return "Dni [dni=" + dni + " ]";
     }
     
 
