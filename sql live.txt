@@ -1,0 +1,6 @@
+ejemplo buscar entre fechas
+
+select order_id, order_date
+from oe.orders
+where order_date between to_date ('2000-01-01', 'yyyy-mm-dd')
+    and to_date ('2005-12-31', 'yyyy-mm-dd');
