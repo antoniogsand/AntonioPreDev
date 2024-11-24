@@ -2,15 +2,16 @@ public class Persona {
     private String nombre;
     private String apellidos;
 
-public Persona (String nombr, String apell){
-    this.nombre= nombr;
-    this.apellidos= apell;
-}
-
+    
 public Persona (){
-    this.nombre= "";
-    this.apellidos= "";
-}
+        this.nombre= "";
+        this.apellidos= "";
+    }
+
+public Persona (String nombr, String apell){
+        this.nombre= nombr;
+        this.apellidos= apell;
+    }
 
 public String getNombre (){
     return nombre;
