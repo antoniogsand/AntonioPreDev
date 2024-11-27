@@ -30,8 +30,9 @@ public class Dni {
         // el método append va agregando  un nuevo valor al final de la cadena existente mientras se va ejecuentando el bucle
         /*  entre paréntesis se le indica el rango de números a usar para generar el número aleatorio
             en este caso lo formaría con el 0, 1, 2, 3 y el 4, el 5 lo excluye*/
-        for (int i = 0; i < 8; i++) {
             cadena.append(random.nextInt(5));
+        for (int i = 1; i < 8; i++) {
+            cadena.append(random.nextInt(10));
         }
 
         /*  Generar una letra mayúscula aleatoria de la tabla ascii entre el 65 que es la A hasta el 90 que es la Z
