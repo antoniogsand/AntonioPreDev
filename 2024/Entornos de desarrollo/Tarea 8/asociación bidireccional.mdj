@@ -48,7 +48,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"height": 13
 										},
 										{
@@ -58,10 +57,9 @@
 												"$ref": "AAAAAAGTcASuSBZ9CAI="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 373,
 											"top": 295,
-											"width": 90.5908203125,
+											"width": 89.5908203125,
 											"height": 13,
 											"text": "Cliente"
 										},
@@ -73,7 +71,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -86,16 +83,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 368,
 									"top": 288,
-									"width": 100.5908203125,
+									"width": 99.5908203125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcASuSBZ+qZU="
@@ -130,20 +125,18 @@
 												"$ref": "AAAAAAGTcAndvhakMZw="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 373,
 											"top": 318,
-											"width": 90.5908203125,
+											"width": 89.5908203125,
 											"height": 13,
 											"text": "-nombre: String",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 368,
 									"top": 313,
-									"width": 100.5908203125,
+									"width": 99.5908203125,
 									"height": 23
 								},
 								{
@@ -156,10 +149,9 @@
 										"$ref": "AAAAAAGTcASuSBZ6W8s="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 368,
 									"top": 336,
-									"width": 100.5908203125,
+									"width": 99.5908203125,
 									"height": 10
 								},
 								{
@@ -173,7 +165,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								},
@@ -188,13 +179,11 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 368,
 							"top": 288,
@@ -244,7 +233,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -32,
 											"height": 13
 										},
@@ -255,10 +243,9 @@
 												"$ref": "AAAAAAGTcApcexavEgs="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 645,
 											"top": 295,
-											"width": 85.931640625,
+											"width": 84.931640625,
 											"height": 13,
 											"text": "CtaCte"
 										},
@@ -270,7 +257,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -32,
 											"width": 73.67724609375,
 											"height": 13,
@@ -284,17 +270,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -32,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 640,
 									"top": 288,
-									"width": 95.931640625,
+									"width": 94.931640625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcApcexawCuc="
@@ -329,20 +313,18 @@
 												"$ref": "AAAAAAGTcArM9RbX9hY="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 645,
 											"top": 318,
-											"width": 85.931640625,
+											"width": 84.931640625,
 											"height": 13,
 											"text": "-saldo: double",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 640,
 									"top": 313,
-									"width": 95.931640625,
+									"width": 94.931640625,
 									"height": 23
 								},
 								{
@@ -355,10 +337,9 @@
 										"$ref": "AAAAAAGTcApcehaseK8="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 640,
 									"top": 336,
-									"width": 95.931640625,
+									"width": 94.931640625,
 									"height": 10
 								},
 								{
@@ -372,7 +353,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"top": -16,
 									"width": 10,
 									"height": 10
@@ -388,14 +368,12 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"top": -16,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 640,
 							"top": 288,
@@ -438,9 +416,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 554,
-									"top": 296,
+									"left": 553,
+									"top": 295,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -460,9 +437,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 554,
-									"top": 281,
+									"left": 553,
+									"top": 280,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -482,9 +458,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 554,
-									"top": 326,
+									"left": 553,
+									"top": 325,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -503,9 +478,8 @@
 										"$ref": "AAAAAAGTcAtNPhbgEyk="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 473,
-									"top": 296,
+									"left": 472,
+									"top": 295,
 									"width": 43.74169921875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -527,9 +501,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 497,
-									"top": 282,
+									"left": 496,
+									"top": 281,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -548,9 +521,8 @@
 										"$ref": "AAAAAAGTcAtNPhbgEyk="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 487,
-									"top": 323,
+									"left": 486,
+									"top": 322,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -571,9 +543,8 @@
 										"$ref": "AAAAAAGTcAtNPhbhseQ="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 590,
-									"top": 296,
+									"top": 295,
 									"width": 46.62353515625,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -594,9 +565,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 610,
-									"top": 282,
+									"top": 281,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -614,9 +584,8 @@
 										"$ref": "AAAAAAGTcAtNPhbhseQ="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 607,
-									"top": 323,
+									"top": 322,
 									"width": 21.68359375,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -637,7 +606,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								},
@@ -652,13 +620,11 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"head": {
 								"$ref": "AAAAAAGTcApcexauPcY="
 							},
@@ -666,7 +632,7 @@
 								"$ref": "AAAAAAGTcASuSBZ8WnE="
 							},
 							"lineStyle": 1,
-							"points": "469:317;639:317",
+							"points": "468:316;639:316",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTcAtNPxbkt9g="
@@ -677,7 +643,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGTcAtNPxbmjSs="
 							},
-							"showEndOrder": "hide",
 							"tailRoleNameLabel": {
 								"$ref": "AAAAAAGTcAtNPxbnCo8="
 							},
@@ -710,7 +675,6 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 504,
 							"top": 240,
 							"width": 100,
@@ -724,7 +688,6 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 24,
 							"top": 64,
 							"width": 336,
@@ -738,12 +701,11 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 456,
 							"top": 368,
 							"width": 232,
-							"height": 144,
-							"text": "Aquí nos marca que un Cliente puede tener muchas Cuentas. Por ejemplo, un cliente puede tener una cuenta de ahorro, una cuenta corriente y una tarjeta de crédito.\nY una Cuenta de un Cliente pertenece a un único Cliente. Es decir, una cuenta bancaria siempre está asociada a un solo cliente."
+							"height": 157,
+							"text": "Aquí nos marca que un Cliente puede tener muchas Cuentas. Por ejemplo, un cliente puede tener una cuenta de ahorro, una cuenta corriente y una tarjeta de crédito.\nY una Cuenta de un Cliente pertenece a un único Cliente. Es decir, una cuenta bancaria siempre está asociada a un solo cliente. cada clase tiene un atributo cuya visibilidad es privada"
 						}
 					]
 				},
