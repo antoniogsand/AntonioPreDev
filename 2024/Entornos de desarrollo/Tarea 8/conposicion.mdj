@@ -27,7 +27,6 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 78,
 							"top": 49,
 							"width": 402,
@@ -62,7 +61,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -176,
 											"top": 192,
 											"height": 13
@@ -74,10 +72,9 @@
 												"$ref": "AAAAAAGTcEUsZoPpg/o="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 133,
 											"top": 391,
-											"width": 101.10888671875,
+											"width": 100.10888671875,
 											"height": 13,
 											"text": "Coche"
 										},
@@ -89,7 +86,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -176,
 											"top": 192,
 											"width": 73.67724609375,
@@ -104,7 +100,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -176,
 											"top": 192,
 											"height": 13,
@@ -112,10 +107,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 128,
 									"top": 384,
-									"width": 111.10888671875,
+									"width": 110.10888671875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcEUsZoPqisY="
@@ -150,20 +144,18 @@
 												"$ref": "AAAAAAGTcEVeH4QQF0Q="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 133,
 											"top": 414,
-											"width": 101.10888671875,
+											"width": 100.10888671875,
 											"height": 13,
 											"text": "-motor: Motor",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 128,
 									"top": 409,
-									"width": 111.10888671875,
+									"width": 110.10888671875,
 									"height": 23
 								},
 								{
@@ -176,10 +168,9 @@
 										"$ref": "AAAAAAGTcEUsZYPmiCc="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 128,
 									"top": 432,
-									"width": 111.10888671875,
+									"width": 110.10888671875,
 									"height": 10
 								},
 								{
@@ -193,7 +184,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": -88,
 									"top": 96,
 									"width": 10,
@@ -210,7 +200,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": -88,
 									"top": 96,
 									"width": 10,
@@ -218,7 +207,6 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 128,
 							"top": 384,
@@ -268,7 +256,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -112,
 											"top": 160,
 											"height": 13
@@ -280,10 +267,9 @@
 												"$ref": "AAAAAAGTcExqhoQsLzI="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 493,
 											"top": 391,
-											"width": 98.9189453125,
+											"width": 97.9189453125,
 											"height": 13,
 											"text": "Motor"
 										},
@@ -295,7 +281,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -112,
 											"top": 160,
 											"width": 73.67724609375,
@@ -310,7 +295,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": -112,
 											"top": 160,
 											"height": 13,
@@ -318,10 +302,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 488,
 									"top": 384,
-									"width": 108.9189453125,
+									"width": 107.9189453125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcExqhoQt1YI="
@@ -346,10 +329,9 @@
 										"$ref": "AAAAAAGTcExqhYQpy7A="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 488,
 									"top": 409,
-									"width": 108.9189453125,
+									"width": 107.9189453125,
 									"height": 10
 								},
 								{
@@ -372,20 +354,18 @@
 												"$ref": "AAAAAAGTcEzSE4Rc7QA="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 493,
 											"top": 424,
-											"width": 98.9189453125,
+											"width": 97.9189453125,
 											"height": 13,
 											"text": "+void encender()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 488,
 									"top": 419,
-									"width": 108.9189453125,
+									"width": 107.9189453125,
 									"height": 23
 								},
 								{
@@ -399,7 +379,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": -56,
 									"top": 80,
 									"width": 10,
@@ -416,7 +395,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": -56,
 									"top": 80,
 									"width": 10,
@@ -424,7 +402,6 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 488,
 							"top": 384,
@@ -467,9 +444,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 362,
-									"top": 437,
+									"left": 361,
+									"top": 436,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -489,9 +465,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 362,
-									"top": 452,
+									"left": 361,
+									"top": 451,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -511,9 +486,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 363,
-									"top": 407,
+									"left": 362,
+									"top": 406,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -533,9 +507,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 461,
-									"top": 436,
+									"top": 435,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -555,9 +528,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 458,
-									"top": 450,
+									"top": 449,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -576,9 +548,8 @@
 										"$ref": "AAAAAAGTcFkg+4h1UH4="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
 									"left": 462,
-									"top": 409,
+									"top": 408,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -600,9 +571,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 264,
-									"top": 436,
+									"left": 263,
+									"top": 435,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -621,9 +591,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 267,
-									"top": 450,
+									"left": 266,
+									"top": 449,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -641,9 +610,8 @@
 										"$ref": "AAAAAAGTcFkg+4h2p+k="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 257,
-									"top": 409,
+									"left": 256,
+									"top": 408,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -664,7 +632,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								},
@@ -679,13 +646,11 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"head": {
 								"$ref": "AAAAAAGTcEUsZoPoTJ0="
 							},
@@ -693,7 +658,7 @@
 								"$ref": "AAAAAAGTcExqhoQr2ZM="
 							},
 							"lineStyle": 1,
-							"points": "487:428;239:428",
+							"points": "487:427;238:427",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTcFkg+4h52m8="
@@ -704,7 +669,6 @@
 							"propertyLabel": {
 								"$ref": "AAAAAAGTcFkg+4h7we8="
 							},
-							"showEndOrder": "hide",
 							"tailRoleNameLabel": {
 								"$ref": "AAAAAAGTcFkg+4h8LBs="
 							},
@@ -737,12 +701,11 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 288,
 							"top": 456,
 							"width": 168,
-							"height": 64,
-							"text": "Se representa así, y quiere decir que a la clase coche le entran un atributo de clase Motor"
+							"height": 129,
+							"text": "Se representa así, y quiere decir que a la clase coche le entran un atributo de clase Motor y que la clase Motor tiene un método público llamado encender que no devuelve nada ni tampoco le entra nada por parámetros"
 						}
 					]
 				},

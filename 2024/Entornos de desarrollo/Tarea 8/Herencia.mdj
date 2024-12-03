@@ -27,7 +27,6 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 74,
 							"top": 64,
 							"width": 414,
@@ -62,7 +61,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"height": 13
 										},
 										{
@@ -72,10 +70,9 @@
 												"$ref": "AAAAAAGTcJCUQ1Nln28="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 189,
 											"top": 367,
-											"width": 93.853515625,
+											"width": 92.853515625,
 											"height": 13,
 											"text": "Animal"
 										},
@@ -87,7 +84,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -100,16 +96,14 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 184,
 									"top": 360,
-									"width": 103.853515625,
+									"width": 102.853515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcJCUQ1NmTB8="
@@ -144,10 +138,9 @@
 												"$ref": "AAAAAAGTcJDHIlOMu2E="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 189,
 											"top": 390,
-											"width": 93.853515625,
+											"width": 92.853515625,
 											"height": 13,
 											"text": "#nombre: String",
 											"horizontalAlignment": 0
@@ -162,20 +155,18 @@
 												"$ref": "AAAAAAGTcJEXMlOUXEg="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 189,
 											"top": 405,
-											"width": 93.853515625,
+											"width": 92.853515625,
 											"height": 13,
 											"text": "#edad: int",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 184,
 									"top": 385,
-									"width": 103.853515625,
+									"width": 102.853515625,
 									"height": 38
 								},
 								{
@@ -188,10 +179,9 @@
 										"$ref": "AAAAAAGTcJCUQlNisy4="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 184,
 									"top": 423,
-									"width": 103.853515625,
+									"width": 102.853515625,
 									"height": 10
 								},
 								{
@@ -205,7 +195,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								},
@@ -220,13 +209,11 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 184,
 							"top": 360,
@@ -276,7 +263,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -16,
 											"height": 13
 										},
@@ -287,10 +273,9 @@
 												"$ref": "AAAAAAGTcJGEfFOfMhA="
 											},
 											"font": "Arial;13;1",
-											"parentStyle": true,
 											"left": 533,
 											"top": 367,
-											"width": 81.57080078125,
+											"width": 80.57080078125,
 											"height": 13,
 											"text": "Perro"
 										},
@@ -302,7 +287,6 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -16,
 											"width": 73.67724609375,
 											"height": 13,
@@ -316,17 +300,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"top": -16,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 528,
 									"top": 360,
-									"width": 91.57080078125,
+									"width": 90.57080078125,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGTcJGEfFOg8ec="
@@ -351,10 +333,9 @@
 										"$ref": "AAAAAAGTcJGEe1OcKCg="
 									},
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 528,
 									"top": 385,
-									"width": 91.57080078125,
+									"width": 90.57080078125,
 									"height": 10
 								},
 								{
@@ -377,20 +358,18 @@
 												"$ref": "AAAAAAGTcJHhHlPGH50="
 											},
 											"font": "Arial;13;0",
-											"parentStyle": true,
 											"left": 533,
 											"top": 400,
-											"width": 81.57080078125,
+											"width": 80.57080078125,
 											"height": 13,
 											"text": "+void ladrar()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"left": 528,
 									"top": 395,
-									"width": 91.57080078125,
+									"width": 90.57080078125,
 									"height": 23
 								},
 								{
@@ -404,7 +383,6 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"top": -8,
 									"width": 10,
 									"height": 10
@@ -420,14 +398,12 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": true,
 									"top": -8,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"containerChangeable": true,
 							"left": 528,
 							"top": 360,
@@ -470,9 +446,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 406,
-									"top": 405,
+									"left": 407,
+									"top": 403,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -492,9 +467,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 406,
-									"top": 420,
+									"left": 407,
+									"top": 418,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -514,9 +488,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"parentStyle": false,
-									"left": 407,
-									"top": 375,
+									"left": 406,
+									"top": 374,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -527,7 +500,6 @@
 								}
 							],
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"head": {
 								"$ref": "AAAAAAGTcJCUQlNkyN8="
 							},
@@ -535,7 +507,7 @@
 								"$ref": "AAAAAAGTcJGEfFOekp4="
 							},
 							"lineStyle": 1,
-							"points": "527:396;288:396",
+							"points": "527:395;287:396",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGTcJO7glPRTaE="
@@ -554,12 +526,11 @@
 								"$ref": "AAAAAAFF+qBtyKM79qY="
 							},
 							"font": "Arial;13;0",
-							"parentStyle": false,
 							"left": 320,
 							"top": 432,
 							"width": 192,
-							"height": 144,
-							"text": "En código se hace uso de la palabra reservada extends en la subclase que en este caso sería Perro para indicar que hereda los atributos de la superClase que es Animal\nEn los constructores se hace referencia a los atributos de la clase padre con la palabra super"
+							"height": 209,
+							"text": "En código se hace uso de la palabra reservada extends en la subclase que en este caso sería Perro para indicar que hereda los atributos de la superClase que es Animal\nEn los constructores se hace referencia a los atributos de la clase padre con la palabra super. Los atributos de la clase padre (Animal) están en modo protected para que pueda heredarlos la clase hija. La clase Perro tiene un método que es público llamado ladrar"
 						}
 					]
 				},
