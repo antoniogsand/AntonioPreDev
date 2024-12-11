@@ -24,9 +24,7 @@ public class Arrays_Uno {
         for (int i = 0; i<5; i= i+2){
             media= media+ numeros[i];
         }
-        System.out.println(media);
-        System.out.println(Arrays.toString(numeros));
-        System.out.println(numeros[3]);
+    
         
 
 
