@@ -22,6 +22,7 @@ public class GenerarArrayDos {
             int[] array = new int[4];
             // int [] array = {3,73,6,33,77} así tendría ya unos valores definidos y no habría que introducírselos más abajo
     
+           // también puedo ir agregándole valores posición a posición array [0]= 3;
             System.out.println("introduce los valores del array según su tamaño ");
             for (int i = 0; i < array.length; i++) {
                 array[i] = scanner.nextInt();
