@@ -11,10 +11,9 @@ int[] capicuas = encontrarCapicuas(numeros);
 
  // Imprimir los números capicúas encontrados
 System.out.println("Números capicúas:");
-for (int num : capicuas) {
-    System.out.println(num);
+for (int i= 0; i<capicuas.length; i++) {
+    System.out.println(capicuas[i]);
 }
-
 
 }
 
@@ -25,8 +24,9 @@ for (int num : capicuas) {
  * a la función le entra como un parámetro
  */
 public static int[] encontrarCapicuas(int[] array) {
-    // Contar cuántos números son capicúas para saber de que tamaño se debe de crear
-    /* en base al array creado en el main */
+    // Contar cuántos números son capicúas del array creado en el main 
+    // para saber de que tamaño se debe de crear el array que los contendra
+    // antes de eso hay que crear una función para saber si un número es capicua o no
     int count = 0;
     for (int i = 0; i < array.length; i++) {
         if (esCapicua(array[i])) {
@@ -48,7 +48,7 @@ public static int[] encontrarCapicuas(int[] array) {
 
     return resultado;
 }
-
+// esto es lo primero, si no se sabe si un número es capicua todo lo demás no sirve
 // Función que determina si un número es capicúa
 public static boolean esCapicua(int numero) {
     String original = String.valueOf(numero); // Convertir el número a cadena
