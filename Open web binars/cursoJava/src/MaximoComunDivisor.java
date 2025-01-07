@@ -19,8 +19,8 @@ public class MaximoComunDivisor {
     int divisor= sc.nextInt();
 
 
-    for (){
+  
 
     }
     }
-}
+
