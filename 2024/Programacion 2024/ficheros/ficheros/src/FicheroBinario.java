@@ -1,3 +1,4 @@
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class FicheroBinario {
@@ -10,14 +11,25 @@ public class FicheroBinario {
 
         //Escribimos byte a byte los siguientes números
         // 00000000, 00000001, 00000010, 00000011, 00000101
-        for(int i = 0; i<8; i++){
-            fichero.write(15);
+        for(int i = 0; i<6; i++){
+            fichero.write(i);
             
         }
     } catch (Exception e) {
-        // TODO: handle exception
+       System.out.println("fallo");
     }
+/* 
+    FileInputStream ficheroDos = null;
 
+    
+        ficheroDos = new FileInputStream("prueba.data");
+
+        while (ficheroDos.available()>0) {
+            //lee un byte, solo podremos lerr correctamente  del 0 al 255
+            System.out.println(ficheroDos.read());
+        }
+   
+    */
 
 
     }
