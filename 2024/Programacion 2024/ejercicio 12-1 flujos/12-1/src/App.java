@@ -4,18 +4,30 @@ import java.io.FileWriter;
 public class App {
     public static void main(String[] args) throws Exception {
     
-        //String texto= null;
+        String [] personas = new String[5];
 
-        FileWriter escritura = new FileWriter("Escribiendo.txt");
+        personas [0]= "Antonio";
+        personas [1]= "Luis";
+        personas [2]= "Pedro";
+        personas [3]= "Juan";
+        personas [4]= "Carlos";
+
+
+
+        FileWriter escritura = new FileWriter("hola.txt");
     
-        escritura.write("Una prueba");
-        escritura.write("Una segunda prueba");
+        for (int i = 0; i<personas.length; i++){
+            escritura.write(personas[i]);
+        }
         escritura.close();
+        /* 
+        escritura.write("Una segunda prueba");
         FileReader lectura = new FileReader("Escribiendo.txt");
         char caracter = (char) lectura.read();
     
         System.out.println(caracter);
+    } */
     }
-    }
+}
     
 
