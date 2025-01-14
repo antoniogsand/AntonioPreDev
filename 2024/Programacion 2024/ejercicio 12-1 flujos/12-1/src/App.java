@@ -13,48 +13,33 @@ public class App {
 
     ArrayList<Persona> listaPersonas= new ArrayList<Persona>();
 
-
     Persona p1 = new Persona("Antonio", "Hombre");
     Persona p2 = new Persona("María", "Mujer");
-    listaPersonas.add(new Persona("jose", "Hombre"));
+    Persona p3 = new Persona("Elena", "Mujer");
+   // listaPersonas.add(new Persona("jose", "Hombre"));
 
     listaPersonas.add(p1);
     listaPersonas.add(p2);
+    listaPersonas.add(p3);
+
+    try {
+        FileWriter escritura = new FileWriter("listadoPersonas.txt");
     
-    
-
-
-    FileWriter escritura = new FileWriter("listadoPersonas.txt");
-    
-
-
-
-
-    for (int i = 0; i<listaPersonas.size(); i++){
-        Persona obtenerPersona = listaPersonas.get(i);
-        String datosPersona = obtenerPersona.getNombre() + obtenerPersona.getSexo();
-        for (int j= 0; j<datosPersona.length(); j++){
+        for (int i = 0; i<listaPersonas.size(); i++){
+            Persona obtenerPersona = listaPersonas.get(i);
+            String datosPersona = obtenerPersona.toString();
+            for (int j= 0; j<datosPersona.length(); j++){
             escritura.write(datosPersona.charAt(j));
+            
+            }
+            
         }
-        
-        
-        //escritura.write(personaString.charAt(i));
-
-        }
-    escritura.close();
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        escritura.close();
+    } catch (Exception e) {
+        System.out.println("No se encuentra el archivo");
+    }
+   
+   
     
         /* 
         String [] personas = new String[5];
