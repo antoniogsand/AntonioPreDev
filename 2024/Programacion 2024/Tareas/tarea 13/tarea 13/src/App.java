@@ -64,7 +64,6 @@ do{
             
         
             letra = array [i];
-            System.out.println(letra); 
             
             }
 
