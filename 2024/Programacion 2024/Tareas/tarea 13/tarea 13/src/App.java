@@ -31,11 +31,14 @@ Si no existe en el abecedario, dejaremos el carácter tal cual.
 
 
 Scanner sc= new Scanner (System.in);
-int numeroOpciones = 0;
+int numeroOpciones;
 
 char [] abecedario = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
 
 FileWriter fw = new FileWriter("cifrado.txt");
+
+// tengo el valor de la frase introducida por el usuario en un String
+String letra = "";
 
 do{
     
@@ -47,19 +50,22 @@ do{
     System.out.println("Continua introduciendo una clave numérica");
     int claveUsuario= sc.nextInt();
     
-  
+
 
     System.out.println("Si quieres cifrar la frase introducida pulsa 1");
     System.out.println("si quieres descifrar la frase introducida pulsa 2");
     System.out.println("si quieres salir del programa pulsa 3");
 
+    numeroOpciones = sc.nextInt();
     switch (numeroOpciones) {
+
         case 1:
             for (int i =0; i<array.length; i++){
-              
-               Character letra = array [i];
-               posicion.indexOf(posicion);
-                
+            
+        
+            letra = array [i];
+            System.out.println(letra); 
+            
             }
 
 
@@ -68,15 +74,18 @@ do{
 
             break;
         case 3:
-        numeroOpciones = 0;
+        
             break; 
         default:
-            break;
+        System.out.println("La opción que has elegido no es válida");
     }
-
 
 
 } while (numeroOpciones != 0);
 
+System.out.println("La frase es" + letra);
+
+
     }
+    
 }
