@@ -10,8 +10,8 @@ public class App {
         
         // el metodo read devuelve -1 cuando llega al final de fichero que está leyendo
         while (c != -1) {
-            char letras= (char) c;
-            System.out.print(letras);
+            char letra= (char) c;
+            System.out.print(letra);
             c= fr.read();
         }
         fr.close();
