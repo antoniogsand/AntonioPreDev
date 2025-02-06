@@ -1,64 +1,58 @@
 public class Persona {
     private int telefono = 0;
-    private String mail = "";
+    private String email = "";
     private String fechaNac = "";
     private String DNI= "";
 
-    public Persona (){
+    public Persona(){
         this.telefono= 677063461;
-        this.mail= "Antoniogs83@hotmail.com";
-        this.fechaNac= "21/07/1983";
-        this.DNI= "45740671L";
+        this.email= "hola@adios.com";
+        this.fechaNac= "21/07/1917";
+        this.DNI= "11111111J";
     }
-
-    public Persona (int telef, String correo, String fechaNacimiento, String DocumentoIdentidad){
-        this.telefono= telef;
-        this.mail= correo;
+    public Persona (int telf, String correo, String fechaNacimiento, String dni){
+        this.telefono= telf;
+        this.email= correo;
         this.fechaNac= fechaNacimiento;
-        this.DNI= DocumentoIdentidad;
+        this.DNI= dni;
+
     }
 
-    public int getTelefono() {
+    public int getTelefono(){
         return telefono;
     }
 
-    public void setTelefono(int telefono) {
-        this.telefono = telefono;
+    public void setTelefono (int telf){
+        this.telefono= telf;
+    }
+    public String getEmail(){
+        return email;
     }
 
-    public String getMail() {
-        return mail;
+    public void setEmail (String correo){
+        this.email= correo;
     }
-
-    public void setMail(String mail) {
-        this.mail = mail;
-    }
-
-    public String getFechaNac() {
+    public String getFechaNac(){
         return fechaNac;
     }
 
-    public void setFechaNac(String fechaNac) {
-        this.fechaNac = fechaNac;
+    public void setFechaNac (String  fechaNacimiento){
+        this.fechaNac= fechaNacimiento;
     }
-
-    public String getDNI() {
+    public String getDni(){
         return DNI;
     }
 
-    public void setDNI (String DNI) {
-        this.DNI = DNI;
+    public void setDNI (String dni){
+        this.DNI= dni;
     }
-
     @Override
     public String toString() {
-        return "Persona [telefono=" + telefono + ", mail=" + mail + ", fechaNac=" + fechaNac + ", DNI=" + DNI + "]";
+        return "Persona [telefono=" + telefono + ", email=" + email + ", fechaNac=" + fechaNac + ", DNI=" + DNI + "]";
     }
-    
-    }
-    
 
 
 
 
 
+}
