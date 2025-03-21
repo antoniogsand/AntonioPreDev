@@ -5,17 +5,17 @@ public class App {
 
 Scanner sc = new Scanner(System.in);
 
-System.out.println("Introduce un número");
+System.out.println("Introduce un número para ver su sumatorio");
 int numero = sc.nextInt();
 
-int sumatorio =0;
+int sumatorio = 0;
 
-for (int i =0; i<numero; numero-- ){
+for (int i =0; i<=numero; numero-- ){
 
     sumatorio= sumatorio+numero;
 }
 
-System.out.println(sumatorio);
+System.out.println("El sumatorio del número introducido es " + sumatorio);
 
     }
 }
