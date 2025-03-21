@@ -25,7 +25,7 @@ public class FicheroBinario {
         ficheroDos = new FileInputStream("prueba.data");
 
         while (ficheroDos.available()>0) {
-            //lee un byte, solo podremos lerr correctamente  del 0 al 255
+            //lee un byte, solo podremos leer correctamente  del 0 al 255
             System.out.println(ficheroDos.read());
         }
    
