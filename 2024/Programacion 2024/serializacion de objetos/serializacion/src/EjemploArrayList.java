@@ -18,12 +18,15 @@ public class EjemploArrayList {
 
         // Recorrer el ArrayList
         for (int i = 0; i < listaDeArrays.size(); i++) {
+            /* hay que acceder a cada elemento del arraylist. Este tiene dos elementos el array1 y el array2
+             * con paréntesis al elemento
+             * necesito la variable array de abajo porque es la que almacena el elemento del arraylist
+             */
             int[] array = listaDeArrays.get(i);
-            System.out.println(array [i]);
-            // Recorrer el array dentro del ArrayList
-            //for (int j = 0; j < array.length; j++) {
-              //  System.out.println(array[j]);
-           // }
+            for (int j = 0; j < array.length; j++) { // Bucle anidado para recorrer cada array
+                // con corchetes a los valores del array que se recore
+                System.out.println(array[j]);
+            }
         }
 
     }
