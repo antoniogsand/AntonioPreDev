@@ -31,6 +31,14 @@
     echo $suma. "<br/>";
     echo $promedio;
     ?>
-<!-- Me he quedado por las tablas -->
+<!--tabla nombre y edad -->
+
+<?php
+// array clave-valor
+$personas = ["Cristina" => 28, "Pedro" => 32, "Maria" => 35];
+
+
+?>
+
 </body>
 </html>
