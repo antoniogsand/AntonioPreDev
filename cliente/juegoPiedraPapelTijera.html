@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+      let nombreJugadorUno= prompt ("Introduce el nombre del jugador número uno");
+      let jugadasJugadorUno= prompt ("introduce las jugadas que hará el jugador número uno"); // piedra,papel,papel,piedra,tijera
+      let nombreJugadorDos= prompt ("Introduce el nombre del jugador número dos");
+      let jugadasJugadorDos= prompt ("Introduce las jugadas que hará el jugador número dos"); // papel,piedra,tijera,tijera,papel
+
+      let arrayJugadorUno = jugadasJugadorUno.split (",");
+      let arrayJugadorDos = jugadasJugadorDos.split (",");
+let contadorJ1= 0;
+let contadorJ2= 0;
+
+      for (let i= 0; i<arrayJugadorUno.length; i++ ){
+        if (arrayJugadorUno[i]== "piedra" && arrayJugadorDos[i] == "piedra"){
+          alert("Empate")
+        };
+
+        
+      };
+    </script>
+</body>
+</html>

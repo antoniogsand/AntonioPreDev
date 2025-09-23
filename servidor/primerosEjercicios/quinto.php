@@ -36,9 +36,19 @@
 <?php
 // array clave-valor
 $personas = ["Cristina" => 28, "Pedro" => 32, "Maria" => 35];
-
-
 ?>
 
+
+<table> 
+
+<tr>Nombre</tr>
+<tr>Edad</tr>
+
+</table>
+<?php
+foreach ($personas as $persona ) {
+echo "<td> $ </td>";
+};
+?>
 </body>
 </html>
