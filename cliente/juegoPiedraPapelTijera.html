@@ -20,12 +20,17 @@ let contadorJ1= 0;
 let contadorJ2= 0;
 
       for (let i= 0; i<arrayJugadorUno.length; i++ ){
-        if (arrayJugadorUno[i]== "piedra" && arrayJugadorDos[i] == "piedra"){
+        if (arrayJugadorUno[i]== "piedra" && arrayJugadorDos [i] == "piedra" || arrayJugadorUno [i] == "papel" && arrayJugadorDos [i] == "papel" || arrayJugadorUno [i] == "tijera" && arrayJugadorDos [i] == "tijera"){
           alert("Empate")
+        }
+        else if(arrayJugadorUno[i] == "piedra" && arrayJugadorDos [i] == "papel"){
+          alert ("Gana el jugador uno"); 
+          contadorJ1++;
         };
 
         
       };
+      alert ("Partidas ganadas por el jugador uno: " + (contadorJ1));
     </script>
 </body>
 </html>
