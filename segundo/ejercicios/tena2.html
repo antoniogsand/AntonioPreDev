@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tema dos</title>
+</head>
+<body>
+    <script>
+
+        // crear una función de flecha que muestre por consola los 100 primeros numeros pares
+
+    /*   const mostrarPrimerosCienPares =() =>{
+            for(let i = 0; i<=100; i++){
+            if(i%2 == 0){
+                console.log ("numero par " + i)
+            }  
+            }
+        }
+        mostrarPrimerosCienPares()
+    */
+        /**************************************************************************************************************/
+
+        // mostrar tabla de multiplicar de un numero pasado por parámetro
+
+    /*      const tablaMultiplicar = (numero) => {
+            for (let i= 1; i<=10; i++){
+            console.log ("tabla de multiplicar del " + numero + " es: "  + i*numero)
+            }
+        }
+    */
+
+        /***************************************************************************************************************/
+
+    function operarArray (array, callBack){
+        let arrayVacio = []
+
+        for (let i = 0; i<array.length; i++){
+        let elementoActual = array[i]
+        let resultadoCallback= callBack (elementoActual)
+        arrayVacio.push(resultadoCallback)
+        }
+    return arrayVacio
+    }
+
+    const numerosPrueba = [1,2,3,4,5]
+    let duplicarNumero = numero => numero *2
+
+
+    </script>
+</body>
+</html>
